@@ -6,4 +6,4 @@ if ( $_POST['payload'] ) {
   shell_exec( 'cd /var/www/Tardis-WEB/ && git reset --hard HEAD && git pull' );
 }
  
-?
+?>
