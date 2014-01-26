@@ -22,6 +22,7 @@
     <h1>Under Construction</h1>
     <div>
         <p>Website is currently under construction and will be available soon</p>
+        <p>Thanks for your patience</p>
         <p>&mdash; The Dream Team</p>
     </div>
     </div>
