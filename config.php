@@ -1,1 +1,5 @@
-// To be done at a later date
+<?php 
+// Global Vars
+
+$masterTitle = "Super Spaceship Adventure";
+?>
