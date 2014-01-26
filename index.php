@@ -4,7 +4,7 @@
  
 <head>
     <meta http-equiv="Content-type" content="text/html;charset=UTF-8">
-    <title>Site Maintenance</title>
+    <title>Super Spaceship Adventure - Site Maintenance</title>
     <style type="text/css">
       body { text-align: center; padding: 150px; }
       h1 { font-size: 50px; }
