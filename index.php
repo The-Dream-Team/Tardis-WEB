@@ -13,6 +13,8 @@
       a { color: #dc8100; text-decoration: none; }
       a:hover { color: #333; text-decoration: none; }
     </style>
+    
+    <link rel="shortcut icon" href="/favicon.png" type="image/png">
  
 </head>
 <body>
@@ -24,4 +26,4 @@
     </div>
     </div>
 </body>
-</html>
+</html> Add icon??
