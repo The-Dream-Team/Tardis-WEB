@@ -1,1 +1,3 @@
-// To be done at a later date
+// Global Vars
+
+$masterTitle = "Super Spaceship Adventure";
