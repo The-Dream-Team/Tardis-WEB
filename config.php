@@ -1,5 +1,6 @@
 <?php 
-// Global Vars
 
+// Global Vars
 $masterTitle = "Super Spaceship Adventure";
+
 ?>
