@@ -14,8 +14,6 @@
     </style>
     
     <link rel="shortcut icon" href="/favicon.png" type="image/png">
-    
-    <!-- TEST HOOK -->
  
 </head>
 <body>
