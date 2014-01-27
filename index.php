@@ -44,7 +44,8 @@
             <li><a href="#howtoplay">How to Play</a></li>
             <li><a href="#highscores">High Scores</a></li>
             <li><a href="http://37.187.75.63:8080">Jenkins</a></li>
-            <li><a href="#faq">FAQ</a><span class="glyphicon glyphicon-comment"></span></li>
+            <li><a href="#faq">FAQ</a></span></li>
+            <span class="glyphicon glyphicon-comment">
             <li><a href="#contact">Contact Us</a></li>
             <form class="navbar-form navbar-left" role="search">
       			<div class="form-group">
