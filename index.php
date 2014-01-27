@@ -64,11 +64,11 @@
         <p class="lead">This site is under construction</p>
       </div>
       
-     <div class="jumbotron">
-  <h1>Super SpaceShip Adventure</h1>
-  <p>Site under Construction!!</p>
-  <p><a class="btn btn-primary btn-lg" role="button">Learn more</a></p>
-</div>
+      <div class="jumbotron">
+ 		 <h1>Super SpaceShip Adventure</h1>
+  		 <p>This site is under construction!!</p>
+ 	  </div>
+      
 
     </div><!-- /.container -->
 
