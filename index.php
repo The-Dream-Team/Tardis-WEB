@@ -63,6 +63,10 @@
         <h1>Super Spaceship Adventure</h1>
         <p class="lead">This site is under construction</p>
       </div>
+      
+      <div class="alert alert-warning">
+  		<a href="#" class="alert-link">This site is currently under construction !!</a>
+	  </div>
 
     </div><!-- /.container -->
 
