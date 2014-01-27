@@ -41,7 +41,7 @@
         <div class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
             <li class="active"><a href="#">Home</a></li>
-            <li><a href="#about">About</a></li>
+            <li><a href="">About</a></li>
             <li><a href="http://37.187.75.63:8080">Jenkins</a></li>
           </ul>
         </div><!--/.nav-collapse -->
@@ -53,6 +53,7 @@
       <div class="template">
         <h1>Super Spaceship Adventure</h1>
         <p class="lead">This site is under construction</p>
+        <p class="lead">Just some more test text</p>
       </div>
 
     </div><!-- /.container -->
