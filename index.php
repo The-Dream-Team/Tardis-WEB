@@ -43,6 +43,15 @@
             <li><a href="#about">About</a></li>
             <li><a href="#howtoplay">How to Play</a></li>
             <li><a href="#highscores">High Scores</a></li>
+            
+            	<li class="dropdown">
+       			 <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+        			<ul class="dropdown-menu">
+          				<li><a href="#">Action</a></li>
+          				<li><a href="#">Another action</a></li>
+       				   <li><a href="#">Something else here</a></li>
+        			</ul>
+     			</li>
             <li><a href="http://37.187.75.63:8080">Jenkins</a></li>
             <li><a href="#faq">FAQ <span class="glyphicon glyphicon-comment"></span></a></li>
             <li><a href="#contact">Contact Us</a></li>
