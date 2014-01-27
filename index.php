@@ -43,11 +43,11 @@
             <li><a href="#about">About</a></li>
             <li><a href="#howtoplay">How to Play</a></li>
               <li class="dropdown">
-       			 <a href="#" class="dropdown-toggle" data-toggle="dropdown">High Scores <b class="caret"></b></a>
+       			 <a href="#" class="dropdown-toggle" data-toggle="highscores">High Scores <b class="caret"></b></a>
         			<ul class="dropdown-menu">
-          				<li><a href="#">Top 10 </a></li>
-          				<li><a href="#">Top 20 </a></li>
-       				   <li><a href="#">Top 100</a></li>
+          				<li><a href="#scorestop10">Top 10 </a></li>
+          				<li><a href="#scorestop20">Top 20 </a></li>
+       				   <li><a href="#scorestop100">Top 100</a></li>
         			</ul>
      			</li>
             <li><a href="http://37.187.75.63:8080">Jenkins</a></li>
