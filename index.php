@@ -61,9 +61,9 @@
 
       <div class="template">
         <h1>Super Spaceship Adventure</h1>
-        <p class="lead">This site is under construction</p>
+        <p class="lead">This site is currently under construction!!</p>
       </div>
-      </div>
+
 
     </div><!-- /.container -->
 
