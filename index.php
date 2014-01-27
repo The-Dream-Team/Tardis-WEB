@@ -52,7 +52,6 @@
       <div class="template">
         <h1>Super Spaceship Adventure</h1>
         <p class="lead">This site is under construction</p>
-        <p class="lead">Just some more test text</p>
       </div>
       </div>
 
