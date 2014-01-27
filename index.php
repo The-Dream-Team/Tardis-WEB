@@ -45,6 +45,7 @@
             <li><a href="#highscores">High Scores</a></li>
             <li><a href="http://37.187.75.63:8080">Jenkins</a></li>
             <li><a href="#faq">FAQ</a></li>
+            <span class="lyphicon glyphicon-comment"></span>
             <li><a href="#contact">Contact Us</a></li>
             <form class="navbar-form navbar-left" role="search">
       			<div class="form-group">
