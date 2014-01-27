@@ -64,10 +64,6 @@
         <p class="lead">This site is under construction</p>
       </div>
 
-      <div class="alert alert-warning">
-  		 <strong>Site under construction!!</strong> 
-	  </div>
-      
     </div><!-- /.container -->
 
 
