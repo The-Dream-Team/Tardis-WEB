@@ -64,12 +64,7 @@
         <p class="lead">This site is under construction</p>
       </div>
       
-      <div class="jumbotron">
- 		 <h1>Super SpaceShip Adventure</h1>
-  		 <p>This site is under construction!!</p>
- 	  </div>
-      
-
+    
     </div><!-- /.container -->
 
 
