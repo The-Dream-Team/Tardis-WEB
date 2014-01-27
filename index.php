@@ -60,8 +60,8 @@
     <div class="container">
 
       <div class="template">
-        <h1>Super Spaceship Adventure</h1>
-        <p class="lead">This site is currently under construction!!</p>
+        <h1>Super SpaceShip Adventure</h1>
+        <p class="lead">This site is currently under construction!</p>
       </div>
 
 
