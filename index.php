@@ -41,7 +41,10 @@
           <ul class="nav navbar-nav">
             <li class="active"><a href="#">Home</a></li>
             <li><a href="#about">About</a></li>
+            <li><a href="#howtoplay">How to Play</a></li>
+            <li><a href="#highscores">High Scores</a></li>
             <li><a href="http://37.187.75.63:8080">Jenkins</a></li>
+            <li><a href="#faq">FAQ</a></li>
              <li><a href="#contact">Contact Us</a></li>
           </ul>
         </div><!--/.nav-collapse -->
