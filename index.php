@@ -79,22 +79,21 @@
           </div>
         </div>
         <div class="item">
-          <img data-src="holder.js/900x500/auto/#666:#6a6a6a/text:Second slide" alt="Second slide">
+          <img src="img/slide1.png" alt="Slide 2">
           <div class="container">
             <div class="carousel-caption">
-              <h1>Heading</h1>
-              <p> This is where the text goes</p>
-              <p><a class="btn btn-lg btn-primary" href="#" role="button">Button</a></p>
+              <h1>Download Game</h1>
+              <p> </p>
+              <p><a class="btn btn-lg btn-primary" href="#" role="button">Download</a></p>
             </div>
           </div>
         </div>
         <div class="item">
-          <img data-src="holder.js/900x500/auto/#555:#5a5a5a/text:Third slide" alt="Third slide">
+          <img src="img/slide1.png" alt="Slide 3">
           <div class="container">
             <div class="carousel-caption">
-              <h1>Example Heading</h1>
-              <p>Website under Construction</p>
-              <p><a class="btn btn-lg btn-primary" href="#" role="button">Button</a></p>
+              <h1></h1>
+              <p></p>
             </div>
           </div>
         </div>
@@ -106,8 +105,8 @@
        <div class="container">
     
       <div class="template">
-        <h1>Super Spaceship Adventure</h1>
-        <p class="lead">This site is currently under construction!</p>
+        <h1>This site is currently under construction!!</h1>
+        <p class="lead"></p>
       </div>
       
       <div class="progress">
