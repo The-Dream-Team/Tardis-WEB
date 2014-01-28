@@ -58,8 +58,6 @@
       </div>
     </div>
 
-    <div class="container">
-
     
      <!-- Carousel
     ================================================== -->
@@ -106,6 +104,7 @@
       <a class="right carousel-control" href="#Carousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
     </div><!-- /.carousel -->
     
+       <div class="container">
     
       <div class="template">
         <h1>Super Spaceship Adventure</h1>
