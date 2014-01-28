@@ -82,7 +82,7 @@
           <img src="img/slide1.png" alt="Slide 2">
           <div class="container">
             <div class="carousel-caption">
-              <h1>Download Game</h1>
+              <img src="img/textdownload.png" alt="Download Game text">
               <p> </p>
               <p><a class="btn btn-lg btn-primary" href="#" role="button">Download</a></p>
             </div>
