@@ -51,7 +51,7 @@
         			</ul>
      			</li>
             <li><a href="http://37.187.75.63:8080">Jenkins</a></li>
-            <li><a href="#faq">FAQ <span class="glyphicon glyphicon-comment"></span></a></li>
+            <li><a href="#faq">FAQ</span></a></li>
             <li><a href="#contact">Contact Us</a></li>
           </ul>
         </div><!--/.nav-collapse -->
@@ -60,6 +60,53 @@
 
     <div class="container">
 
+    
+     <!-- Carousel
+    ================================================== -->
+    <div id="Carousel" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#Carousel" data-slide-to="0" class="active"></li>
+        <li data-target="#Carousel" data-slide-to="1"></li>
+        <li data-target="#Carousel" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="item active">
+          <img data-src="holder.js/900x500/auto/#777:#7a7a7a/text:First slide" alt="First slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Super SpaceShip Adventure</h1>
+              <p>Page under Construction</p>
+              <p><a class="btn btn-lg btn-primary" href="#" role="button">Button</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img data-src="holder.js/900x500/auto/#666:#6a6a6a/text:Second slide" alt="Second slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Heading</h1>
+              <p> This is where the text goes</p>
+              <p><a class="btn btn-lg btn-primary" href="#" role="button">Button</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img data-src="holder.js/900x500/auto/#555:#5a5a5a/text:Third slide" alt="Third slide">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1>Example Heading</h1>
+              <p>Website under Construction</p>
+              <p><a class="btn btn-lg btn-primary" href="#" role="button">Button</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="left carousel-control" href="#Carousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+      <a class="right carousel-control" href="#Carousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+    </div><!-- /.carousel -->
+    
+    
       <div class="template">
         <h1>Super Spaceship Adventure</h1>
         <p class="lead">This site is currently under construction!</p>
