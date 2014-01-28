@@ -84,7 +84,7 @@
             <div class="carousel-caption" style="margin-bottom: 50px;">
               <img src="img/textdownload.png" alt="Download Game text">
               <p> </p>
-              <p><a class="btn btn-lg btn-primary" href="#" role="button">Download</a></p>
+              <p><a class="btn btn-lg btn-success" href="#" role="button">Download</a></p>
             </div>
           </div>
         </div>
