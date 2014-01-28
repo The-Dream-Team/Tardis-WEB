@@ -71,12 +71,10 @@
       </ol>
       <div class="carousel-inner">
         <div class="item active">
-          <img data-src="holder.js/900x500/auto/#777:#7a7a7a/text:First slide" alt="First slide">
+          <img src="img/slide1.png" alt="Slide 1">
           <div class="container">
             <div class="carousel-caption">
-              <h1>Super Spaceship Adventure</h1>
-              <p>Page under Construction</p>
-              <p><a class="btn btn-lg btn-primary" href="#" role="button">Button</a></p>
+              <img src="img/textlogo.png" alt="textlogo">
             </div>
           </div>
         </div>
