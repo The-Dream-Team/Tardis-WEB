@@ -74,7 +74,7 @@
           <img data-src="holder.js/900x500/auto/#777:#7a7a7a/text:First slide" alt="First slide">
           <div class="container">
             <div class="carousel-caption">
-              <h1>Super SpaceShip Adventure</h1>
+              <h1>Super Spaceship Adventure</h1>
               <p>Page under Construction</p>
               <p><a class="btn btn-lg btn-primary" href="#" role="button">Button</a></p>
             </div>
