@@ -25,6 +25,7 @@
 </head>
 
 <body>
+ <div class="wrap">
 
 <div class="navbar navbar-default navbar-fixed-top" role="navigation">
     <div class="container">
@@ -128,8 +129,10 @@
     </div>
 
 
-</div>
+    </div>
 <!-- /.container -->
+ </div>
+ <!-- /.wrap -->
 
 <div id="footer">
     <div class="container">
