@@ -1,7 +1,8 @@
 
 <?php
-    $pageTitle = "Home";
-    include 'includes/head.php';
+$pageTitle = "Home";
+$page = "home";
+include 'includes/head.php';
 ?>
 
 <body>
