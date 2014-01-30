@@ -13,7 +13,7 @@
 
             <div class="container">
                 <div class="carousel-caption">
-                    <img src="img/textlogo.png" alt="textlogo">
+                    <img class="carousel-imgresponsive" src="img/textlogo.png" alt="textlogo">
                 </div>
             </div>
         </div>
@@ -22,7 +22,7 @@
 
             <div class="container">
                 <div class="carousel-caption" style="margin-bottom: 50px;">
-                    <img src="img/textdownload.png" alt="Download Game text">
+                    <img class="carousel-imgresponsive" src="img/textdownload.png" alt="Download Game text">
 
                     <p></p>
 
