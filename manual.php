@@ -8,6 +8,7 @@ include 'includes/head.php';
 
 <?php
 include 'includes/nav.php';
+include 'includes/manual/jumbotron.php';
 ?>
 
 <div class="container">
