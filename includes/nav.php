@@ -11,20 +11,20 @@
         </div>
         <div class="collapse navbar-collapse">
             <ul class="nav navbar-nav">
-                <li class="active"><a href="#">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#howtoplay">How to Play</a></li>
+                <li class="active"><a href="index.php">Home</a></li>
+                <li><a href="about.php">About</a></li>
+                <li><a href="manual.php">How to Play</a></li>
                 <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">High Scores <b class="caret"></b></a>
                     <ul class="dropdown-menu">
-                        <li><a href="#scorestop10"><span class="glyphicon glyphicon-star"></span> Top 10 </a></li>
-                        <li><a href="#scorestop20"><span class="glyphicon glyphicon-star"></span> Top 50 </a></li>
-                        <li><a href="#scorestop100"><span class="glyphicon glyphicon-star"></span> Top 100</a></li>
+                        <li><a href="highscores.php"><span class="glyphicon glyphicon-star"></span> Top 10 </a></li>
+                        <li><a href="highscores.php"><span class="glyphicon glyphicon-star"></span> Top 50 </a></li>
+                        <li><a href="highscores.php"><span class="glyphicon glyphicon-star"></span> Top 100</a></li>
                     </ul>
                 </li>
                 <li><a href="http://37.187.75.63:8080">Jenkins</a></li>
-                <li><a href="#faq">FAQ</span></a></li>
-                <li><a href="#contact">Contact Us</a></li>
+                <li><a href="faq.php">FAQ</span></a></li>
+                <li><a href="contact.php">Contact Us</a></li>
             </ul>
         </div>
         <!--/.nav-collapse -->
