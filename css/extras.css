@@ -67,7 +67,7 @@ body {
     height: 350px;
 }
 
-.carousel-caption > img {
+.carousel-imgresponsive {
     display: block;
     height: auto;
     max-width: 100%;
