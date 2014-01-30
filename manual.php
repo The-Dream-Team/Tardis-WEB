@@ -1,5 +1,6 @@
 <?php
 $pageTitle = "How to Play";
+$page = "manual";
 include 'includes/head.php';
 ?>
 

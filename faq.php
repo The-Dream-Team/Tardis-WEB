@@ -1,5 +1,6 @@
 <?php
 $pageTitle = "FAQ";
+$page = "faq";
 include 'includes/head.php';
 ?>
 

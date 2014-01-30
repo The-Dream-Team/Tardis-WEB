@@ -1,5 +1,6 @@
 <?php
 $pageTitle = "Contact Us";
+$page = "contact";
 include 'includes/head.php';
 ?>
 

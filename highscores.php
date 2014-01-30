@@ -1,5 +1,6 @@
 <?php
 $pageTitle = "High Scores";
+$page = "highscores";
 include 'includes/head.php';
 ?>
 
