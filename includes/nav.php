@@ -14,7 +14,7 @@
                 <li class="<?php echo ($page == "home" ? "active" : "")?>"><a href="index.php">Home</a></li>
                 <li class="<?php echo ($page == "about" ? "active" : "")?>"><a href="about.php">About</a></li>
                 <li class="<?php echo ($page == "manual" ? "active" : "")?>"><a href="manual.php">How to Play</a></li>
-                <li class="dropdown">
+                <li class="dropdown <?php echo ($page == "highscores" ? "active" : "")?>">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">High Scores <b class="caret"></b></a>
                     <ul class="dropdown-menu">
                         <li><a href="highscores.php"><span class="glyphicon glyphicon-star"></span> Top 10 </a></li>
