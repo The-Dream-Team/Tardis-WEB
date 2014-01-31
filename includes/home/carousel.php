@@ -18,7 +18,7 @@
             </div>
         </div>
         <div class="item">
-            <img src="img/slide1.png" alt="Slide 2">
+            <img src="img/slide2.png" alt="Slide 2">
 
             <div class="container">
                 <div class="carousel-caption" style="margin-bottom: 50px;">
