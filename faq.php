@@ -58,6 +58,8 @@ include 'includes/faq/jumbotron.php';
         </div>
     </div>
 
+<hr>
+
 </div>
 <!-- /.container -->
 
