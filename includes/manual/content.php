@@ -2,12 +2,10 @@
 
 <div class="row">
 	<div class="col-lg-12"> 
- 	<h1>Controls</h1>
- 	<p>kggh</p>
- 	
+ 		<h1>Controls</h1>
+ 		<p>Arrows</p>
  	</div>
  	
-
 </div>
 
 
