@@ -9,16 +9,7 @@ include 'includes/head.php';
 <?php
 include 'includes/nav.php';
 include 'includes/highscores/jumbotron.php';
-?>
-
-<div class="container">
-
-    <hr>
-
-</div>
-<!-- /.container -->
-
-<?php
+include 'includes/highscores/content.php';
 include 'includes/footer.php';
 include 'includes/js.php';
 ?>

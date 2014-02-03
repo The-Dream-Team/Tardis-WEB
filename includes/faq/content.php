@@ -11,12 +11,12 @@
             </div>
             <div id="collapseOne" class="panel-collapse collapse">
                 <div class="panel-body">
-                    The system requirements for the game are:
+                    The system requirements for the game are: 
                     <ul>
-                        <li>Java 7</li>
-                        <li>Windows, Linux or Mac</li>
-                        <li>100MB RAM</li>
-                        <li>5MB Disk Space</li>
+                   	<li>Java 7</li>
+                    <li>Windows, Linux or Mac</li>
+                    <li>100MB RAM</li>
+                    <li>5MB Disk Space</li>
                     </ul>
                 </div>
             </div>
@@ -31,7 +31,7 @@
             </div>
             <div id="collapseTwo" class="panel-collapse collapse">
                 <div class="panel-body">
-                    Answer will appear here.
+               		Answer will appear here.
                 </div>
             </div>
         </div>
@@ -45,13 +45,13 @@
             </div>
             <div id="collapseThree" class="panel-collapse collapse">
                 <div class="panel-body">
-                    Answer will appear here.
+                  Answer will appear here. 
                 </div>
             </div>
         </div>
     </div>
 
-    <hr>
+<hr>
 
 </div>
 <!-- /.container -->
