@@ -17,11 +17,20 @@
  		</div>
  		
  		<div class="col-lg-6"></div>
- 		
- 	</div>
- 	
+ 	</div> 	 	
 </div>
 
+<div class="row">
+	<div class="col-lg-12">
+	<h3>Power-ups</h3>
+		<div class="col-lg-12">
+			<p>Spacebar</p>
+			<img alt="Spacebar" src="img/keys/space.png">
+		</div>
+		
+	
+	</div>
+</div>
 
     <hr>
 
