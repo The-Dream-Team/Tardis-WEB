@@ -1,6 +1,6 @@
 <?php
 include "config.php";
-    ?>
+?>
 
 <head>
     <meta charset="utf-8">

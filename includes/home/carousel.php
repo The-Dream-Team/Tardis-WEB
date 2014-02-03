@@ -23,7 +23,9 @@
             <div class="container">
                 <div class="carousel-caption" style="margin-bottom: 50px;">
                     <img class="carousel-imgresponsive" src="img/textdownload.png" alt="Download Game text">
+
                     <p></p>
+
                     <p><a class="btn btn-lg btn-success" href="#downloadbutton" role="button"><span
                                 class="glyphicon glyphicon-download-alt"></span></a></p>
                 </div>
@@ -35,6 +37,7 @@
             <div class="container">
                 <div class="carousel-caption">
                     <img class="carousel-imgresponsive" src="img/top-player.png" alt="Top Player">
+
                     <p>Player - 5420 metres</p>
                 </div>
             </div>
