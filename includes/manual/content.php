@@ -27,10 +27,30 @@
 			<p>Spacebar</p>
 			<img alt="Spacebar" src="img/keys/space.png">
 		</div>
-		
-	
 	</div>
 </div>
+
+<div class="row">
+	<div class="col-lg-12">
+	<h3>Pause Game</h3>
+		<div class="col-lg-3">
+			<p>P key</p>
+			<img alt="P key" src="img/keys/p.png">
+		</div>
+		
+		<div class="col-lg-3">
+			<p>Esc key</p>
+			<img alt="Esc key" src="img/keys/esc.png">
+		</div>
+	
+		<div class="col-lg-6"></div>
+	</div>
+	
+	
+</div>
+
+
+
 
     <hr>
 
