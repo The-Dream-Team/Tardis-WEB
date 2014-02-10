@@ -4438,7 +4438,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
 .nav-pills > li.active > a:hover,
 .nav-pills > li.active > a:focus {
   color: #ffffff;
-  background-color: #008cba;
+  background-color: #43ac6a;
 }
 
 .nav-stacked > li {
@@ -4780,7 +4780,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
   float: left;
   padding: 12px 15px;
   font-size: 19px;
-  line-height: 21px;
+  line-height: 18px;
 }
 
 .navbar-brand:hover,
