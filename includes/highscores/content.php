@@ -8,7 +8,31 @@
 			</ul>
 		</div>
 	</div>
-	
+	<?php
+			$con=mysqli_connect("localhost","thedreamteam","El3ven","SSA") or die ("Error " . mysqli_error($con));
+
+			$result = mysqli_query($con,"SELECT * FROM  `Top Player` ORDER BY Distance DESC LIMIT 10");
+
+			echo "<table class='table table-striped'>
+				<tr>
+					<th>Rank</th>
+					<th>Name</th>
+					<th>Distance</th>
+
+				</tr>";
+
+				while($row = mysqli_fetch_array($result))
+				{
+					echo "<tr>";
+					echo "<td>" . $row['PlayerID'] . "</td>";
+					echo "<td>" . $row['PlayerName'] . "</td>";
+					echo "<td>" . $row['Distance'] . "</td>";
+					echo "</tr>";
+				}
+			echo "</table>";
+
+			mysqli_close($con);
+	?>
 	
 	
 
