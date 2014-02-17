@@ -1,9 +1,9 @@
 <?php
 	$rank = 1;
 	$limit = $_GET['limit'];
-	$con=mysqli_connect("localhost","thedreamteam","El3ven","SSA") or die ("Error " . mysqli_error($con));
+	$con = mysqli_connect("localhost","thedreamteam","El3ven","SSA") or die ("Error " . mysqli_error($con));
  
-$result = mysqli_query($con,"SELECT * FROM  `Top Player` ORDER BY Distance DESC LIMIT $limit");
+$result = mysqli_query($con,"SELECT * FROM  `Top Player` ORDER BY Distance DESC LIMIT '$limit'");
  
 	//Build Result String
 $display_string = "<table class='table table-striped'>";
@@ -23,7 +23,7 @@ while($row = mysqli_fetch_array($result))
 	$display_string .= "</tr>";	
 }
 // Used for debugging purposes. All fine at the moment!!
-echo "Query: " . $result . "<br />";
+// echo "Query: " . $result . "<br />";
 $display_string .= "</table>";
 echo $display_string;
 ?>

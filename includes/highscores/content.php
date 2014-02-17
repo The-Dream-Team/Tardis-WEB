@@ -11,33 +11,6 @@
 			</ul>
 		</div>
 	</div>
-	 <?php /*
-	$rank = 1;
-			include 'includes/sqllogin.php';
-
-			$result = mysqli_query($con,"SELECT * FROM  `Top Player` ORDER BY Distance DESC LIMIT 10");
-
-			echo "<table class='table table-striped'>
-				<tr>
-					<th>Rank</th>
-					<th>Username</th>
-					<th>Distance</th>
-
-				</tr>";
-
-				while($row = mysqli_fetch_array($result))
-				{
-					
-					echo "<tr>";
-					echo "<td>" . $rank++ . "</td>";
-					echo "<td>" . $row['PlayerName'] . "</td>";
-					echo "<td>" . $row['Distance'] . "</td>";
-					echo "</tr>";
-				}
-			echo "</table>";
-
-			mysqli_close($con);
-	*/?> 
 	
 	<script language="javascript" type="text/javascript">
 <!-- 
