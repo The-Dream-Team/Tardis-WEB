@@ -24,9 +24,9 @@
 
 				while($row = mysqli_fetch_array($result))
 				{
-					$rank = 0;
+					$rank = 1;
 					echo "<tr>";
-					echo "<td>" . ++$rank . "</td>";
+					echo "<td>" . $rank++ . "</td>";
 					echo "<td>" . $row['PlayerName'] . "</td>";
 					echo "<td>" . $row['Distance'] . "</td>";
 					echo "</tr>";
