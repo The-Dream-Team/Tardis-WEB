@@ -1,5 +1,5 @@
 <?php
-	$rank = 1;
+	
 	$limit = $_GET['limit'];
 	$con = mysqli_connect("localhost","thedreamteam","El3ven","SSA") or die ("Error " . mysqli_error($con));
  
@@ -16,6 +16,7 @@ $display_string .= "</tr>";
 // Insert a new row in the table for each person returned
 while($row = mysqli_fetch_array($result))
 {
+	$rank = 1;
 	$display_string .= "<tr>";
 	$display_string .= "<td>$rank++</td>";
 	$display_string .= "<td>$row[PlayerName]</td>";
