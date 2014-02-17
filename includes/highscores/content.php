@@ -1,5 +1,5 @@
 <body onload="ajaxFunction();">
-<input type="hidden" value="10" id="ilimit"/>
+<input type="hidden" value="10" id="limit"/>
 
 <div class="container">
 	<div class="row">
@@ -46,7 +46,7 @@ function ajaxFunction(){
  }
  // Now get the value from user and pass it to
  // server script.
- var tlimit = document.getElementById('ilimit').value;
+ var limit = document.getElementById('limit').value;
  var queryString = "?limit=" + tlimit ;
  ajaxRequest.open("GET", "includes/highscores/results-ajax.php" + 
                               queryString, true);
