@@ -3,7 +3,7 @@
 	$limit = $_GET['limit'];
 	$con = mysqli_connect("localhost","thedreamteam","El3ven","SSA") or die ("Error " . mysqli_error($con));
  
-$result = mysqli_query($con,"SELECT * FROM  `Top Player` ORDER BY Distance DESC LIMIT '$limit'");
+$result = mysqli_query($con,"SELECT * FROM  `Top Player` ORDER BY Distance DESC LIMIT 10");
  
 	//Build Result String
 $display_string = "<table class='table table-striped'>";
