@@ -54,20 +54,20 @@ function ajaxFunction(){
 }
 
 function top10(){
-	document.getElementById('limit').value="10"
-	document.getElementById('top10n').className="active"
+	document.getElementById('limit').value="10";
+	document.getElementById('top10n').setAttribute("class", "active");
 	ajaxFunction();
 }
 
 function top50(){
-		document.getElementById('limit').value="50"
-        document.getElementById('top50n').className="active"
+		document.getElementById('limit').value="50";
+        document.getElementById('top50n').className="active";
 	ajaxFunction();
 }
 
 function top100(){
-	document.getElementById('limit').value="100"
-    document.getElementById('top100n').className="active"
+	document.getElementById('limit').value="100";
+    document.getElementById('top100n').setAttribute("class", "active");
 	ajaxFunction();
 }
 
