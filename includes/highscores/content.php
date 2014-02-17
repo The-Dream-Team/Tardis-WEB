@@ -9,7 +9,7 @@
 			</ul>
 		</div>
 	</div>
-	<?php
+	 <?php /*
 	$rank = 1;
 			include 'includes/sqllogin.php';
 
@@ -35,7 +35,7 @@
 			echo "</table>";
 
 			mysqli_close($con);
-	?>
+	*/?> 
 	
 	<script language="javascript" type="text/javascript">
 <!-- 
