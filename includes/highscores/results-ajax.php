@@ -18,7 +18,7 @@ while($row = mysqli_fetch_array($result))
 {
 	$rank = 1;
 	$display_string .= "<tr>";
-	$display_string .= "<td>$rank++</td>";
+	$display_string .= "<td>$rank + 1</td>";
 	$display_string .= "<td>$row[PlayerName]</td>";
 	$display_string .= "<td>$row[Distance]</td>";
 	$display_string .= "</tr>";	
