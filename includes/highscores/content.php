@@ -17,7 +17,7 @@
 			echo "<table class='table table-striped'>
 				<tr>
 					<th>Rank</th>
-					<th>Name</th>
+					<th>Username</th>
 					<th>Distance</th>
 
 				</tr>";
@@ -36,6 +36,51 @@
 			mysqli_close($con);
 	?>
 	
+	<script language="javascript" type="text/javascript">
+<!-- 
+//Browser Support Code
+function ajaxFunction(){
+ var ajaxRequest;  // The variable that makes Ajax possible!
+ 
+ try{
+   // Opera 8.0+, Firefox, Safari
+   ajaxRequest = new XMLHttpRequest();
+ }catch (e){
+   // Internet Explorer Browsers
+   try{
+      ajaxRequest = new ActiveXObject("Msxml2.XMLHTTP");
+   }catch (e) {
+      try{
+         ajaxRequest = new ActiveXObject("Microsoft.XMLHTTP");
+      }catch (e){
+         // Something went wrong
+         alert("Your browser broke!");
+         return false;
+      }
+   }
+ }
+ // Create a function that will receive data 
+ // sent from the server and will update
+ // div section in the same page.
+ ajaxRequest.onreadystatechange = function(){
+   if(ajaxRequest.readyState == 4){
+      var ajaxDisplay = document.getElementById('results');
+      ajaxDisplay.innerHTML = ajaxRequest.responseText;
+   }
+ }
+ // Now get the value from user and pass it to
+ // server script.
+ var tlimit = document.getElementById('ilimit').value;
+ var queryString = "?tlimit=" + ilimit ;
+ ajaxRequest.open("GET", "results-ajax.php" + 
+                              queryString, true);
+ ajaxRequest.send(null); 
+}
+//-->
+</script>
+	
+	<input type="hidden" value="10"/>
+	<div id="results"></div>
 	
 
 
