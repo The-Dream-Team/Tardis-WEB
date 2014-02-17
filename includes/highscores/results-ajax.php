@@ -1,7 +1,7 @@
 <?php
 	$rank = 1;
 	$limit = $_GET['limit'];
-	include 'includes/sqllogin.php';
+	include '../sqllogin.php';
  
 $result = mysqli_query($con,"SELECT * FROM  `Top Player` ORDER BY Distance DESC LIMIT $limit");
  
