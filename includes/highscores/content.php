@@ -1,3 +1,4 @@
+<body onload="ajaxFunction();">
 <div class="container">
 	<div class="row">
 		<div class="col-lg-12">
@@ -79,7 +80,7 @@ function ajaxFunction(){
 //-->
 </script>
 	
-	<input type="hidden" value="10"/>
+	<input type="hidden" value="10" id="ilimit"/>
 	<div id="results"></div>
 	
 
