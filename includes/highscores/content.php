@@ -9,7 +9,7 @@
 		</div>
 	</div>
 	<?php
-			
+	$rank = 1;
 			include 'includes/sqllogin.php';
 
 			$result = mysqli_query($con,"SELECT * FROM  `Top Player` ORDER BY Distance DESC LIMIT 10");
@@ -24,7 +24,7 @@
 
 				while($row = mysqli_fetch_array($result))
 				{
-					$rank = 1;
+					
 					echo "<tr>";
 					echo "<td>" . $rank++ . "</td>";
 					echo "<td>" . $row['PlayerName'] . "</td>";
