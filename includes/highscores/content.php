@@ -75,7 +75,7 @@ function ajaxFunction(){
  // server script.
  var tlimit = document.getElementById('ilimit').value;
  var queryString = "?limit=" + tlimit ;
- ajaxRequest.open("GET", "http://localhost/includes/highscores/results-ajax.php" + 
+ ajaxRequest.open("GET", "results-ajax.php" + 
                               queryString, true);
  ajaxRequest.send(null); 
 }
