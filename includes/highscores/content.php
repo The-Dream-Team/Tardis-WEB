@@ -5,9 +5,9 @@
 	<div class="row">
 		<div class="col-lg-12">
 			<ul class="nav nav-pills">
-  				<li class="active"><a href="#">Top 10</a></li>
-			    <li><a href="#">Top 50</a></li>
- 				<li><a href="#">Top 100 </a></li>
+  				<li class="active"><a href="#" onclick="top10();">Top 10</a></li>
+			    <li><a href="#" onclick="top50();">Top 50</a></li>
+ 				<li><a href="#" onclick="top100();">Top 100 </a></li>
 			</ul>
 		</div>
 	</div>
@@ -52,6 +52,23 @@ function ajaxFunction(){
                               queryString, true);
  ajaxRequest.send(null); 
 }
+
+function top10(){
+	document.getElementById('limit').value="10"
+	ajaxFunction();
+}
+
+function top50(){
+	document.getElementById('limit').value="50"
+	ajaxFunction();
+}
+
+function top100(){
+	document.getElementById('limit').value="100"
+	ajaxFunction();
+}
+
+
 //-->
 </script>
 	
