@@ -47,7 +47,7 @@ function ajaxFunction(){
  // Now get the value from user and pass it to
  // server script.
  var limit = document.getElementById('limit').value;
- var queryString = "?limit=" + tlimit ;
+ var queryString = "?limit=" + limit ;
  ajaxRequest.open("GET", "includes/highscores/results-ajax.php" + 
                               queryString, true);
  ajaxRequest.send(null); 
