@@ -23,7 +23,7 @@ while($row = mysqli_fetch_array($result))
 	$display_string .= "</tr>";	
 }
 // Used for debugging purposes. All fine at the moment!!
-// echo "Query: " . $sql . "<br />";
+echo "Query: " . $result . "<br />";
 $display_string .= "</table>";
 echo $display_string;
 ?>
