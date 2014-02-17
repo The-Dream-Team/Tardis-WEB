@@ -1,4 +1,4 @@
-<body onload="ajaxFunction();">
+<body onload="ajaxFunction(); top10();">
 <input type="hidden" value="10" id="limit"/>
 
 <div class="container">
