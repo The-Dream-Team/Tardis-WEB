@@ -1,4 +1,4 @@
-<script src="ajax.js"></script>
+<script src="js/ajax.js"></script>
 <body onload="ajaxFunction(); top10();">
 <input type="hidden" value="10" id="limit"/>
 
