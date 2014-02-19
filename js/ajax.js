@@ -1,6 +1,14 @@
 <!-- 
 //Browser Support Code
 function ajaxFunction(){
+
+ 	 $(document).ready(function() {
+	 document.getElementById("progressbar").style.width="100%";
+     $("#loading").delay(800).hide();
+	 $("#results").show();
+   });
+
+
  var ajaxRequest;  // The variable that makes Ajax possible!
  
  try{
@@ -36,11 +44,6 @@ function ajaxFunction(){
  ajaxRequest.open("GET", "includes/highscores/results-ajax.php" + 
                               queryString, true);
  ajaxRequest.send(null); 
- 		$(document).ready(function() {
-	 document.getElementById("progressbar").style.width="100%";
-     $("#loading").delay(800).hide();
-	 $("#results").show();
-});
 }
 
 function top10(){
