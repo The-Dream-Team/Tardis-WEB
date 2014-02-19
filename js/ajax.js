@@ -3,8 +3,8 @@
 function ajaxFunction(){
 
  	 $(document).ready(function() {
-	 document.getElementById("progressbar").style.width="100%";
-     $("#loading").delay(800).hide();
+	 $("#progressbar").css({"width":"100%");
+     $("#loading").delay(1500).hide();
 	 $("#results").show();
    });
 
