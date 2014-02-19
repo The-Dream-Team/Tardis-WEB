@@ -38,7 +38,7 @@ function ajaxFunction(){
  ajaxRequest.send(null); 
  		$(document).ready(function() {
 	 document.getElementById("progressbar").style.width="100%";
-     $("#loading").delay("slow").hide();
+     $("#loading").delay(800).hide();
 	 $("#results").show();
 });
 }
