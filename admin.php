@@ -9,7 +9,7 @@ include 'includes/head.php';
 <?php
     include 'includes/nav.php';
     include 'includes/admin/jumbotron.php';
-    include 'includes/admin/admindatabse.php';
+    include 'includes/admin/database.php';
     include 'includes/footer.php';
     include 'includes/js.php';
 ?>
