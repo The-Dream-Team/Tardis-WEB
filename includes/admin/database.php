@@ -1,7 +1,7 @@
 <?php
 $rank = 1;
 
-include '../sqllogin.php';
+include 'includes/sqllogin.php';
 
 $result = mysqli_query($con,"SELECT * FROM `Top Players` ORDER 	`Distance` DESC");
 
