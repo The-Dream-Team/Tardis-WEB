@@ -17,6 +17,7 @@
 	
 	<div class="panel panel-default hs-pull-up">
 		<div class="panel-body">
+    <div id="loading">Loading results...</div>
 	<div id="results"></div>
   </div>
 </div>
