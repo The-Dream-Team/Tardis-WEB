@@ -4,7 +4,7 @@ function ajaxFunction(){
 
  	 $(document).ready(function() {
 	 $("#progressbar").css({"width":"100%"});
-     $("#loading").delay(2500).fadeOut();
+     $("#loading").delay(1500).fadeOut();
 	 $("#results").show();
    });
 
