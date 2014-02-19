@@ -1,6 +1,6 @@
 <?php
-$pageTitle = "Home";
-$page = "home";
+$pageTitle = "admin";
+$page = "admin";
 include 'includes/head.php';
 ?>
 
@@ -8,9 +8,8 @@ include 'includes/head.php';
 
 <?php
     include 'includes/nav.php';
-    include 'includes/home/carousel.php';
-    include 'includes/home/jumbotron.php';
-    include 'includes/home/content.php';
+    include 'includes/admin/jumbotron.php';
+    include 'includes/admin/database.php';
     include 'includes/footer.php';
     include 'includes/js.php';
 ?>
