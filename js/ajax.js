@@ -51,6 +51,9 @@ function top50(){
         document.getElementById('top50n').className="active";
         document.getElementById('top10n').className="";
         document.getElementById('top100n').className="";
+		$(document).ready(function() {
+     $("#loading").hide();
+});
 	ajaxFunction();
 }
 
