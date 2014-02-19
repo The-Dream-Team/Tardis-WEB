@@ -3,7 +3,7 @@
 function ajaxFunction(){
 
  	 $(document).ready(function() {
-	 $("#progressbar").css({"width":"100%");
+	 $("#progressbar").css({"width":"100%"});
      $("#loading").delay(1500).hide();
 	 $("#results").show();
    });
