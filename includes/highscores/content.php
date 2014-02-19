@@ -17,7 +17,15 @@
 	
 	<div class="panel panel-default hs-pull-up">
 		<div class="panel-body">
-    <div id="loading">Loading results...</div>
+    <div id="loading">
+	
+	<div class="progress progress-striped active">
+  <div class="progress-bar" id="progressbar" role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100" style="width: 10%">
+    <span class="sr-only">Loading results</span>
+  </div>
+</div>
+	
+	</div>
 	<div id="results"></div>
   </div>
 </div>

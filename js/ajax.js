@@ -36,6 +36,11 @@ function ajaxFunction(){
  ajaxRequest.open("GET", "includes/highscores/results-ajax.php" + 
                               queryString, true);
  ajaxRequest.send(null); 
+ 		$(document).ready(function() {
+	 document.getElementById("progressbar").style.width="100%";
+     $("#loading").delay("slow").hide();
+	 $("#results").show();
+});
 }
 
 function top10(){
@@ -51,9 +56,6 @@ function top50(){
         document.getElementById('top50n').className="active";
         document.getElementById('top10n').className="";
         document.getElementById('top100n').className="";
-		$(document).ready(function() {
-     $("#loading").hide();
-});
 	ajaxFunction();
 }
 
