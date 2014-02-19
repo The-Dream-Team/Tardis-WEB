@@ -112,6 +112,15 @@ body {
     letter-spacing: -1px;
 }
 
+
+/* High Scores
+------------------------- */
+
+.hs-pull-up {
+     margin-top: -22px;
+}
+
+
 /* RESPONSIVE CSS
 -------------------------------------------------- */
 

@@ -15,13 +15,12 @@
 	
 	<br>
 	
-	
+	<div class="panel panel-default hs-pull-up">
+		<div class="panel-body">
 	<div id="results"></div>
+  </div>
+</div>
 	
-
-
-
-
     <hr>
 
 </div>
