@@ -3,7 +3,7 @@ $rank = 1;
 
 include 'includes/sqllogin.php';
 
-$result = mysqli_query($con,"SELECT * FROM `Top Players` ORDER 	`Distance` DESC");
+$result = mysqli_query($con,"SELECT * FROM `Top Player` ORDER BY Distance DESC");
 
 echo "<table class='table table-striped'>
 				<tr>
@@ -11,6 +11,8 @@ echo "<table class='table table-striped'>
 					<th>Rank</th>
 					<th>Player Name</th>
 					<th>Distance</th>
+					<th>Edit</th>
+					<th>Delete</th>
 				</tr>";
 
 while($row = mysqli_fetch_array($result))
@@ -20,8 +22,8 @@ while($row = mysqli_fetch_array($result))
 	echo "<td>" . $rank++ . "</td>";
 	echo "<td>" . $row['PlayerName'] . "</td>";
 	echo "<td>" . $row['Distance'] . "</td>";
-	echo "<td><a href='edituser.php?id=". $row['ID'] . "'>EDIT</a></td>";
-	echo "<td><a href='delete.php?id=". $row['ID'] . "'>DELETE</a></td>";
+	echo "<td><a href='edituser.php?id=". $row['PlayerID'] . "'>EDIT</a></td>";
+	echo "<td><a href='delete.php?id=". $row['PlayerID'] . "'>DELETE</a></td>";
 	echo "</tr>";
 }
 echo "</table>";
