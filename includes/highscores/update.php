@@ -12,7 +12,7 @@ $id = mysqli_query($con, "SELECT `PlayerID` FROM `Top Player` WHERE PlayerName='
 
 if (mysql_num_rows($usercheck) >= 1) {
     if ($distance > $scorecheck) {
-        $query = mysqli_query($con, "UPDATE `Top Player` SET Distance=$distance WHERE PlayerID='$id'");
+        $query = mysqli_query($con, "UPDATE `Top Player` SET Distance='$distance' WHERE PlayerID=$id");
     } else {
         echo "Did not beat previous high score";
     }
