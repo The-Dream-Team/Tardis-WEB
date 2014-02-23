@@ -11,7 +11,7 @@ $con = mysqli_connect("localhost", "thedreamteam", "El3ven", "SSA") or die ("Err
 
 $usercheck = mysqli_query($con, "SELECT `PlayerName` FROM `Top Player` WHERE PlayerName='$username'");
 
-if (mysqli_num_rows($result) >= 1)
+if (mysqli_num_rows($usercheck) >= 1)
 {
     echo "User exists";
     $scorecheck = mysqli_query($con, "SELECT `Distance` FROM `Top Player` WHERE PlayerName='$username' AND Distance='$distance'");
@@ -24,7 +24,7 @@ if (mysqli_num_rows($result) >= 1)
     }
 }
 
-if (mysqli_num_rows($result) == 0) {
+if (mysqli_num_rows($usercheck) == 0) {
     echo "User does not exist, adding now";
     $insert = mysqli_query($con, "INSERT INTO `Top Player` (`PlayerID`, `PlayerName`, `Distance`) VALUES (NULL, '$username', '$distance')");
 }
