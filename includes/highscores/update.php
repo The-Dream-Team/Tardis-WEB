@@ -12,11 +12,11 @@ $id = mysqli_query($con, "SELECT `PlayerID` FROM `Top Player` WHERE PlayerName='
 
 if (mysql_num_rows($usercheck) >= 1) {
     if ($distance > $scorecheck) {
-        $query = mysqli_query($con, "UPDATE `Top Player` SET Distance=$distance WHERE PlayerName='$username' AND PlayerID='$id'");
+        $query = mysqli_query($con, "UPDATE `Top Player` SET Distance=$distance WHERE PlayerID='$id'");
     } else {
         echo "Did not beat previous high score";
     }
-} else {
+} elseif (mysql_num_rows($usercheck) <= 0) {
     $query = mysqli_query($con, "INSERT INTO `Top Player` (`PlayerID`, `PlayerName`, `Distance`) VALUES (NULL, '$username', '$distance')");
 }
 
@@ -24,4 +24,10 @@ if (mysql_num_rows($usercheck) >= 1) {
 echo $_GET['username'];
 echo " ";
 echo $_GET['distance'];
+
+//debug
+
+echo $usercheck . "<br>";
+echo $scorecheck . "<br>";
+echo $id;
 ?>
