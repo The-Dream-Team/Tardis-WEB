@@ -17,7 +17,7 @@ if (mysqli_num_rows($usercheck) >= 1) {
     $score = mysqli_fetch_array($scorecheck);
     if ($distance > $score) {
         echo "Updated user";
-        $update = mysqli_query($con, "UPDATE `Top Player` SET `Distance` = '$distance' WHERE `PlayerName` =$username;");
+        $update = mysqli_query($con, "UPDATE `Top Player` SET `Distance` = '$distance' WHERE `PlayerName` = '$username';");
     } else {
         echo " Did not beat previous high score";
     }
