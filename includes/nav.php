@@ -17,9 +17,9 @@
                 <li class="dropdown <?php echo ($page == "highscores" ? "active" : "")?>">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">High Scores <b class="caret"></b></a>
                     <ul class="dropdown-menu">
-                        <li><a href="highscores.php"><span class="glyphicon glyphicon-star"></span> Top 10 </a></li>
-                        <li><a href="highscores.php"><span class="glyphicon glyphicon-star"></span> Top 50 </a></li>
-                        <li><a href="highscores.php"><span class="glyphicon glyphicon-star"></span> Top 100</a></li>
+                        <li><a href="highscores.php#top10"><span class="glyphicon glyphicon-star"></span> Top 10 </a></li>
+                        <li><a href="highscores.php#top50"><span class="glyphicon glyphicon-star"></span> Top 50 </a></li>
+                        <li><a href="highscores.php#top100"><span class="glyphicon glyphicon-star"></span> Top 100</a></li>
                     </ul>
                 </li>
                 <li class="<?php echo ($page == "jenkins" ? "active" : "")?>"><a href="http://37.187.75.63:8080">Jenkins</a></li>
