@@ -4,8 +4,6 @@ $username = $_GET['username'];
 $distance = $_GET['distance'];
 $con = mysqli_connect("localhost", "thedreamteam", "El3ven", "SSA") or die ("Error " . mysqli_error($con));
 
-// Let's check to see if the user exists
-
 $usercheck = mysqli_query($con, "SELECT * FROM `Top Player` WHERE PlayerName='$username'");
 $scorecheck = mysqli_query($con, "SELECT `Distance` FROM `Top Player` WHERE PlayerName='$username' AND Distance='$distance'");
 $id = mysqli_query($con, "SELECT `PlayerID` FROM `Top Player` WHERE PlayerName='$username' AND Distance='$distance'");
@@ -24,9 +22,6 @@ if (mysql_num_rows($usercheck) >= 1) {
 echo $_GET['username'];
 echo " ";
 echo $_GET['distance'];
-
-//debug
-
 echo $usercheck;
 echo $scorecheck;
 echo $id;
