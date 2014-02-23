@@ -15,7 +15,7 @@ if (mysqli_num_rows($usercheck) >= 1)
 {
     echo "User exists ";
     $scorecheck = mysqli_query($con, "SELECT `Distance` FROM `Top Player` WHERE PlayerName='$username' AND Distance='$distance'");
-    $score = mysqli_fetch_array($scorecheck))
+    $score = mysqli_fetch_array($scorecheck);
     if ($distance > $score) {
         echo "Updated user";
         $id = mysqli_query($con, "SELECT `PlayerID` FROM `Top Player` WHERE PlayerName='$username' AND Distance='$distance'");
