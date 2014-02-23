@@ -10,7 +10,7 @@ echo $_GET['distance'];
 $con = mysqli_connect("localhost", "thedreamteam", "El3ven", "SSA") or die ("Error " . mysqli_error($con));
 
 $usercheck = mysqli_query($con, "SELECT `PlayerName` FROM `Top Player` WHERE PlayerName='$username'");
-$scorecheck = mysqli_query($con, "SELECT `Distance` FROM `Top Player` WHERE PlayerName='$username' AND Distance='$distance'");
+$scorecheck = mysqli_query($con, "SELECT `Distance` FROM `Top Player` WHERE PlayerName='$username'");
 $scorearray = mysqli_fetch_array($scorecheck);
 $score = "$scorearray[Distance]";
 
