@@ -5,7 +5,7 @@ include 'includes/sqllogin.php';
 
 $result = mysqli_query($con,"SELECT * FROM `Top Player` ORDER BY Distance DESC");
 
-echo "<table class='table table-striped'>
+echo "<div class='container'><table class='table table-striped'>
 				<tr>
 					<th>ID</th>
 					<th>Rank</th>
@@ -26,7 +26,7 @@ while($row = mysqli_fetch_array($result))
 	echo "<td><a href='delete.php?id=". $row['PlayerID'] . "'>DELETE</a></td>";
 	echo "</tr>";
 }
-echo "</table>";
+echo "</div></table>";
 
 mysqli_close($con);
 ?>
