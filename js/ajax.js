@@ -6,13 +6,13 @@ function ajaxFunction(){
 	 $("#progressbar").css({"width":"100%"});
      $("#loading").delay(1500).fadeOut();
 	 $("#results").show();
-	 if(window.location.href.indexOf("top10") > -1) {
+	 if(window.location.href.indexOf("top10") != -1) {
        top10();
     }
-    if(window.location.href.indexOf("top50") > -1) {
+    if(window.location.href.indexOf("top50") != -1) {
        top50();
     }
-    if(window.location.href.indexOf("top100") > -1) {
+    if(window.location.href.indexOf("top100") != -1) {
        top100();
     }
    });
