@@ -19,7 +19,7 @@ if (mysqli_num_rows($usercheck) >= 1) {
         echo "<br>>Updated score";
         $update = mysqli_query($con, "UPDATE `Top Player` SET `Distance` = '$distance' WHERE `PlayerName` = '$username';");
     } else {
-        echo " Did not beat previous high score";
+        echo "<br>> Did not beat previous high score of " . $score;
     }
 }
 
