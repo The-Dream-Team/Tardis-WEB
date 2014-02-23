@@ -12,8 +12,7 @@ $con = mysqli_connect("localhost", "thedreamteam", "El3ven", "SSA") or die ("Err
 $usercheck = mysqli_query($con, "SELECT `PlayerName` FROM `Top Player` WHERE PlayerName='$username'");
 $scorecheck = mysqli_query($con, "SELECT `Distance` FROM `Top Player` WHERE PlayerName='$username' AND Distance='$distance'");
 $scorearray = mysqli_fetch_array($scorecheck);
-$scorestring = "$scorearray[Distance]";
-$score = (int)$scorestring;
+$score = "$scorearray[Distance]";
 
 if (mysqli_num_rows($usercheck) >= 1) {
     echo " User exists ";
