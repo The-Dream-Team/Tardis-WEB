@@ -1,7 +1,9 @@
 <?php session_start();
 include "includes/sqllogin.php";
 
-$result = mysqli_query($con,"SELECT ID, Username, Password FROM admins WHERE Username='$_POST[Username]'");
+$passwordcheck = $_POST[Username];
+
+$result = mysqli_query($con,"SELECT ID, Username, Password FROM admins WHERE Username='$passwordcheck'");
 
 $row = mysqli_fetch_row($result);
 $id = $row[0];
