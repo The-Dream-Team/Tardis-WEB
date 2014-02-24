@@ -25,10 +25,10 @@
 
 <div class="col-sm-3">
 
-<img  src="img/fblogo.png" alt="Facebook">
+<a href="http://www.facebook.com" target="_blank"><img  src="img/fblogo.png" alt="Facebook"></a>
 <br>
 <br>
-<img  src="img/twitterlogo.png" alt="Twitter">
+<a href="http://www.twitter.com" target="_blank"><img  src="img/twitterlogo.png" alt="Twitter"></a>
 </div>
 
 </div>
