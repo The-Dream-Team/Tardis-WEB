@@ -19,8 +19,7 @@ else {
 	setcookie("id", $id, strtotime( '+30 days' ), "/", "", "", TRUE);
 	setcookie("user", $username, strtotime( '+30 days' ), "/", "", "", TRUE);
 	setcookie("pass", $password, strtotime( '+30 days' ), "/", "", "", TRUE);
-	header("Location: admin.php");
+	header("Location: ../../admin.php");
 	exit;
 }
-
 ?>
