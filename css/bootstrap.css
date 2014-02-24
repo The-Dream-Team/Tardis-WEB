@@ -7927,3 +7927,8 @@ label,
 .affix {
   position: fixed;
 }
+
+.floatr {
+	float: right;
+}
+}
