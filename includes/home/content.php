@@ -10,7 +10,7 @@
         <div class="col-md-4">
             <h2>FAQ</h2>
             <p>Having issues, want to see any frequently asked questions. Visit this page.</p>
-            <p><a class="btn btn-default" href="FAQ.php" role="button">FAQ &raquo;</a></p>
+            <p><a class="btn btn-default" href="faq.php" role="button">FAQ &raquo;</a></p>
         </div>
         <div class="col-md-4">
             <h2>Competition!!!</h2>
