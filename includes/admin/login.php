@@ -1,5 +1,4 @@
 <?php session_start();
-
 include "includes/sqllogin.php";
 
 $result = mysqli_query($con,"SELECT ID, Username, Password FROM admins WHERE Username='$_POST[Username]'");
