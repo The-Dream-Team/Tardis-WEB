@@ -2,19 +2,22 @@
 
     <div class="row">
         <div class="col-md-4">
-            <h2>Heading</h2>
-            <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-            <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+            <h2>HighScores</h2>
+            <p>Can you beat the highscore, find out here!!
+            Find out where you are positioned on the database.</p>
+            <p><a class="btn btn-default" href="highscores.php" role="button">View details &raquo;</a></p>
         </div>
         <div class="col-md-4">
-            <h2>Heading</h2>
-            <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-            <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+            <h2>FAQ</h2>
+            <p>Having issues, want to see any frequently asked questions. Visit this page.</p>
+            <p><a class="btn btn-default" href="FAQ.php" role="button">FAQ &raquo;</a></p>
         </div>
         <div class="col-md-4">
-            <h2>Heading</h2>
-            <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-            <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+            <h2>Competition!!!</h2>
+            <p>Would you like to win the chance to create your own player? 
+            Submit your entry of a creation of player ship for your chance to win.
+            </p>
+            <p><a class="btn btn-default" href="#" role="button">Enter Here &raquo;</a></p>
         </div>
     </div>
 
