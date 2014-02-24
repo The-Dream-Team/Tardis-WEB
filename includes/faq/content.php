@@ -16,7 +16,7 @@
                    	<li>Java 7</li>
                     <li>Windows, Linux or Mac</li>
                     <li>100MB RAM</li>
-                    <li>5MB Disk Space</li>
+                    <li>30MB Disk Space</li>
                     </ul>
                 </div>
             </div>
