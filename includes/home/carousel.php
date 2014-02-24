@@ -35,7 +35,7 @@
             <div class="container">
                 <div class="carousel-caption">
                     <img class="carousel-imgresponsive" src="img/top-player.png" alt="Top Player">
-                    <p>Player - 5420 metres</p>
+                    <p>WoodKatie - 110000 metres</p>
                 </div>
             </div>
         </div>
