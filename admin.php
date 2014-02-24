@@ -7,9 +7,10 @@ include 'includes/head.php';
 <body>
 
 <?php
-if(isset($_SESSION["userid"]) && isset($_SESSION["username"]) && isset($_SESSION["password"]) == false ) {
-	header("Location: adminlogin.php");
+if(isset($_SESSION["userid"]) && isset($_SESSION["username"]) && isset($_SESSION["password"]) == true ) {
+	exit();
 } else {
+	header("Location: adminlogin.php");
 	exit();
 }
     include 'includes/nav.php';
