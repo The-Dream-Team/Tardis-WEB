@@ -25,7 +25,7 @@
 
 <div class="col-sm-3">
 
-<a href="http://www.facebook.com" target="_blank"><img  src="img/fblogo.png" alt="Facebook"></a>
+<a href="https://www.facebook.com/thedreamteamuni" target="_blank"><img  src="img/fblogo.png" alt="Facebook"></a>
 <br>
 <br>
 <a href="http://www.twitter.com" target="_blank"><img  src="img/twitterlogo.png" alt="Twitter"></a>
