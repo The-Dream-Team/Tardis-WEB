@@ -35,7 +35,7 @@
     
 <div class="col-md-4">
             <h2>Gurnam Sangat</h2>
-            <img src="img/yuv.png"/>
+            <img src="img/gurnam.png"/>
             <p>Facebook: www.facebook.com/gurnam.sangat </p>
             <p>Twitter: www.twitter.com/Gurnam17 </p>
             
