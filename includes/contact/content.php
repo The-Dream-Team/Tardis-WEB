@@ -28,7 +28,7 @@
 <a href="https://www.facebook.com/thedreamteamuni" target="_blank"><img  src="img/fblogo.png" alt="Facebook"></a>
 <br>
 <br>
-<a href="http://www.twitter.com" target="_blank"><img  src="img/twitterlogo.png" alt="Twitter"></a>
+<a href="https://twitter.com/ThedreamTeamUni" target="_blank"><img  src="img/twitterlogo.png" alt="Twitter"></a>
 </div>
 
 </div>
