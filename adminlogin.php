@@ -7,8 +7,8 @@ include 'includes/head.php';
     <div class="container">
       <form class="form-signin" action="login.php" method="post">
         <h2 class="form-signin-heading">Admin Panel</h2>
-        <input type="email" class="form-control" placeholder="Username" required autofocus>
-        <input type="password" class="form-control" placeholder="Password" required> 
+        <input type="Username" class="form-control" placeholder="Username" required autofocus>
+        <input type="Password" class="form-control" placeholder="Password" required> 
         <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
       </form>
 
