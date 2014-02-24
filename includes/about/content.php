@@ -13,25 +13,29 @@
  <h1>About the Staff</h1>
 	<div class="col-md-4">
 			<h2>Katie Wood</h2>
-           <p>Facebook: www.facebook.com/katieLMAO </p>
+			<img src="img/katie.png"/>
+           	<p>Facebook: www.facebook.com/katieLMAO </p>
             <p>Twitter: www.twitter.com/katieee94xxx </p>
     </div>
     
   
     <div class="col-md-4">
             <h2>Jordan Taylor</h2>
+            <img src="img/jordan.png"/>
            <p>Facebook: www.facebook.com/JTaylor69 </p>
             <p>Twitter: www.twitter.com/JTaylor69 </p>
     </div>
     
     <div class="col-md-4">
             <h2>Ping Sam</h2>
+            <img src="img/ping.png"/>
             <p>Facebook: www.facebook.com/ping.sam.73 </p>
             <p>Twitter: N/A </p>
           </div>
     
 <div class="col-md-4">
             <h2>Gurnam Sangat</h2>
+            <img src="img/yuv.png"/>
             <p>Facebook: www.facebook.com/gurnam.sangat </p>
             <p>Twitter: www.twitter.com/Gurnam17 </p>
             
@@ -39,6 +43,7 @@
     
     <div class="col-md-4">
             <h2>Grant Neal</h2>
+            <img src="img/grant.png"/>
             <p>Facebook: N/A</p>
             <p>Twitter: N/A</p>
     </div>
