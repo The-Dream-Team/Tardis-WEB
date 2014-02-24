@@ -16,9 +16,6 @@ else {
 	$_SESSION['userid'] = $id;
 	$_SESSION['username'] = $username;
 	$_SESSION['password'] = $password;
-	setcookie("id", $id, strtotime( '+30 days' ), "/", "", "", TRUE);
-	setcookie("user", $username, strtotime( '+30 days' ), "/", "", "", TRUE);
-	setcookie("pass", $password, strtotime( '+30 days' ), "/", "", "", TRUE);
 	header("Location: ../../admin.php");
 	exit;
 }
