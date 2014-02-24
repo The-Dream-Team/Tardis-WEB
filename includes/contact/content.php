@@ -21,22 +21,22 @@
 </form>
 </div>
 
-<div class="col-sm-4">
-<div class="well">
-&nbsp;
+<div class="col-sm-1">    </div>
+
+<div class="col-sm-3">
+
+<img  src="img/fblogo.png" alt="Facebook">
 <br>
-&nbsp;
 <br>
-&nbsp;
-<br>
-&nbsp;
-<br>
-&nbsp;
+<img  src="img/twitterlogo.png" alt="Twitter">
 </div>
 
 </div>
 
 </div>
+
+
+
 
     <hr>
 
