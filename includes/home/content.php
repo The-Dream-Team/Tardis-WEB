@@ -5,7 +5,7 @@
             <h2>HighScores</h2>
             <p>Can you beat the highscore, find out here!!
             Find out where you are positioned on the database.</p>
-            <p><a class="btn btn-default" href="highscores.php" role="button">View details &raquo;</a></p>
+            <p><a class="btn btn-default" href="highscores.php" role="button">View Highscores &raquo;</a></p>
         </div>
         <div class="col-md-4">
             <h2>FAQ</h2>
