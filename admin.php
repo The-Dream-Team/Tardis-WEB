@@ -7,11 +7,10 @@ include 'includes/head.php';
 <body>
 
 <?php
-if(isset($_SESSION["userid"]) && isset($_SESSION["username"]) && isset($_SESSION["password"]) == true ) {
-	exit();
-} else {
-	header("Location: adminlogin.php");
-	exit();
+session_start();
+
+if (!(isset($_SESSION['useid']) && $_SESSION['username'] && $_SESSION['password'] != '')) {
+header ("Location: adminlogin.php");
 }
     include 'includes/nav.php';
     include 'includes/admin/jumbotron.php';
