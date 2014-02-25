@@ -1,4 +1,4 @@
-<?php session_start();
+<?php
 include "includes/sqllogin.php";
 
 $passwordcheck = $_POST[Username];
