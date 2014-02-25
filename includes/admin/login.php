@@ -12,13 +12,14 @@ $password = $row[2];
 if ($_POST['Password'] != $password)
 {
 	echo "Bad Username or Password";
+	exit();
 }
 else {
-	// Create Sessions and cookies
+	// Create Sessions
 	$_SESSION['userid'] = $id;
 	$_SESSION['username'] = $username;
 	$_SESSION['password'] = $password;
 	header("Location: ../../admin.php");
-	exit;
+	exit();
 }
 ?>
