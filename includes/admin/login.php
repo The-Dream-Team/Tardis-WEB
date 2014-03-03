@@ -14,7 +14,6 @@ $sqlpassword = $row[2];
 if ($password != $sqlpassword)
 {
 	echo "Bad Password";
-	exit();
 }
 else {
 	// Create Sessions
