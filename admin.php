@@ -1,4 +1,4 @@
-<?php
+<?php session_start();
 $pageTitle = "admin";
 $page = "admin";
 include 'includes/head.php';
@@ -7,8 +7,6 @@ include 'includes/head.php';
 <body>
 
 <?php
-session_start();
-
 if (!isset($_SESSION['username'])) {
 header ("Location: adminlogin.php");
 exit();
