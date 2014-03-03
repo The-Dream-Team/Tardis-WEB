@@ -10,7 +10,7 @@ include "includes/sqllogin.php";
 	$username = $row[1];
 	$password = $row[2];
 	mysqli_close($con);
-	if ($_POST['Password'] != $password)
+	if (htlspecialchar($_POST['Password']) != $password)
 	{
 		echo "Bad Username or Password";	
 		exit;
