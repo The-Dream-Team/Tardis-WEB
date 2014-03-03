@@ -1,12 +1,3 @@
-<?php
-
-$con = mysqli_connect("localhost","thedreamteam","El3ven","SSA") or die ("Error " . mysqli_error($con));
- 
-$result = mysqli_query($con,"SELECT * FROM  `Top Player` ORDER BY Distance");
-
-?>
-
-
 <!-- Carousel
 ================================================== -->
 <div id="Carousel" class="carousel slide" data-ride="carousel">
@@ -46,15 +37,38 @@ $result = mysqli_query($con,"SELECT * FROM  `Top Player` ORDER BY Distance");
                     <img class="carousel-imgresponsive" src="img/top-player.png" alt="Top Player">
                     <p>WoodKatie - 110000 metres  </p>
                     
-                    <?php while($row = mysqli_fetch_array($result))
-						{	
-							$display_string .= "<td>$row[PlayerName]</td>";
-							$display_string .= "<td>$row[Distance]</td>";
-						}
-				
-                     echo $display_string;
-                                     
-                   ?>
+                    
+                 <?php
+	
+
+	$con = mysqli_connect("localhost","thedreamteam","El3ven","SSA") or die ("Error " . mysqli_error($con));
+ 
+$result = mysqli_query($con,"SELECT * FROM  `Top Player` ORDER BY Distance DESC");
+ 
+	//Build Result String
+$display_string = "<table class='table table-striped'>";
+$display_string .= "<tr>";
+$display_string .= "<th>Rank</th>";
+$display_string .= "<th>Username</th>";
+$display_string .= "<th>Distance</th>";
+$display_string .= "</tr>";
+
+
+
+// Insert a new row in the table for each person returned
+while($row = mysqli_fetch_array($result))
+{
+	$display_string .= "<tr>";
+	$display_string .= "<td>$row[PlayerName]</td>";
+	$display_string .= "<td>$row[Distance]</td>";
+	$display_string .= "</tr>";	
+	
+}
+// Used for debugging purposes. All fine at the moment!!
+// echo "Query: " . $result . "<br />";
+$display_string .= "</table>";
+echo $display_string;
+?>
                 </div>
             </div>
         </div>
