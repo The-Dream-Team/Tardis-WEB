@@ -15,7 +15,7 @@ header ("Location: adminlogin.php");
     include 'includes/nav.php';
     include 'includes/admin/jumbotron.php';
     include 'includes/admin/database.php';
-    include 'includes/adminfooter.php';
+    include 'includes/admin/adminfooter.php';
     include 'includes/js.php';
 ?>
 </body>
