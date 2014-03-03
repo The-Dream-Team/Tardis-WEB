@@ -41,7 +41,7 @@
 	
 					include "includes/sqllogin.php";
  
-					$result = mysqli_query($con,"SELECT `PlayerName` `Distance` FROM `Top Player` ORDER BY Distance DESC");
+					$result = mysqli_query($con,"SELECT `PlayerName` `Distance` FROM `Top Player` ORDER BY Distance DESC LIMIT 1");
 		
 					//Build Result String
 
