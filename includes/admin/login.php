@@ -14,10 +14,8 @@ include "includes/sqllogin.php";
 		echo "Bad Username or Password";	
 	} 
 		else {
-			// Create Sessions and cookies
-			$_SESSION['userid'] = $id;
+			// Create Sessions
 			$_SESSION['username'] = $username;
-			$_SESSION['password'] = $password;
 			header("Location: ../../admin.php");
 			exit;
 			}
