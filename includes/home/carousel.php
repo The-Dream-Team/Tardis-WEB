@@ -51,7 +51,9 @@
 					while($row = mysqli_fetch_array($result))
 					{
 					
-						echo  $row['PlayerName'] . " - " . $row['Distance'];
+						echo  $row['PlayerName'];
+						echo " - ";
+						echo $row['Distance'];
 						
 					}
 					// Used for debugging purposes. All fine at the moment!!
