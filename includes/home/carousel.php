@@ -52,7 +52,7 @@ $result = mysqli_query($con,"SELECT MAX(Distance) FROM 'Top Player'");
 							$display_string .= "<td>$row[Distance]</td>";
 						}
 				
-                     $display_string;
+                     echo $display_string;
                                      
                    ?>
                 </div>
