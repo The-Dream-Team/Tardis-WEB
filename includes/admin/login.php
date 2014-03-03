@@ -2,26 +2,23 @@
 session_start();
 include "includes/sqllogin.php";
 
-$username = $_POST[Username];
-$password = $_POST[Password];
 
-$result = mysqli_query($con,"SELECT `ID`, `Username`, `Password` FROM `admins` WHERE Username='$username'");
+$result = mysqli_query($con,"SELECT ID, Username, Password FROM admins WHERE Username='$_POST[Username]'");
 
 $row = mysqli_fetch_row($result);
 $id = $row[0];
-$sqlusername = $row[1];
-$sqlpassword = $row[2];
-mysqli_close($con);
-if ($password != $sqlpassword)
+$username = $row[1];
+$password = $row[2];
+if ($_POST['Password'] != $password)
 {
 	echo "Bad Password";
 }
 else {
 	// Create Sessions
 	$_SESSION['userid'] = $id;
-	$_SESSION['username'] = $sqlusername;
-	$_SESSION['password'] = $sqlpassword;
+	$_SESSION['username'] = $username;
+	$_SESSION['password'] = $password;
 	header("Location: ../../admin.php");
-	exit();
+	exit;
 }
 ?>
