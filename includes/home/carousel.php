@@ -1,3 +1,12 @@
+<?php
+
+$con = mysqli_connect("localhost","thedreamteam","El3ven","SSA") or die ("Error " . mysqli_error($con));
+ 
+$result = mysqli_query($con,"SELECT MAX(Distance) FROM 'Top Player'");
+
+?>
+
+
 <!-- Carousel
 ================================================== -->
 <div id="Carousel" class="carousel slide" data-ride="carousel">
@@ -35,7 +44,16 @@
             <div class="container">
                 <div class="carousel-caption">
                     <img class="carousel-imgresponsive" src="img/top-player.png" alt="Top Player">
-                    <p>WoodKatie - 110000 metres</p>
+                    <p>WoodKatie - 110000 metres
+                    
+                    <?php while($row = mysqli_fetch_array($result))
+						{	
+							$display_string .= "<td>$row[PlayerName]</td>";
+							$display_string .= "<td>$row[Distance]</td>";
+						}
+					?>
+                                     
+                    </p>
                 </div>
             </div>
         </div>
