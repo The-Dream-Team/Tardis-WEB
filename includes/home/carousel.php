@@ -43,12 +43,11 @@
 
 	$con = mysqli_connect("localhost","thedreamteam","El3ven","SSA") or die ("Error " . mysqli_error($con));
  
-$result = mysqli_query($con,"SELECT * FROM  `Top Player` ORDER BY Distance DESC");
- 
+$result = mysqli_query($con,"SELECT MAX(Distance) FROM Customers;");
+
 	//Build Result String
 $display_string = "<table class='table table-striped'>";
 $display_string .= "<tr>";
-$display_string .= "<th>Rank</th>";
 $display_string .= "<th>Username</th>";
 $display_string .= "<th>Distance</th>";
 $display_string .= "</tr>";
