@@ -5,7 +5,7 @@ include "includes/sqllogin.php";
 $username = $_POST[Username];
 $password = $_POST[Password];
 
-$result = mysqli_query($con,"SELECT `ID`, `Username`, `Password` FROM `admins` WHERE `Username='$username'`");
+$result = mysqli_query($con,"SELECT `ID`, `Username`, `Password` FROM `admins` WHERE Username='$username'");
 
 $row = mysqli_fetch_row($result);
 $id = $row[0];
