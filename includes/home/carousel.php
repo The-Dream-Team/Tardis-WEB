@@ -44,7 +44,7 @@ $result = mysqli_query($con,"SELECT MAX(Distance) FROM 'Top Player'");
             <div class="container">
                 <div class="carousel-caption">
                     <img class="carousel-imgresponsive" src="img/top-player.png" alt="Top Player">
-                    <p>WoodKatie - 110000 metres
+                    <p>WoodKatie - 110000 metres  </p>
                     
                     <?php while($row = mysqli_fetch_array($result))
 						{	
@@ -53,7 +53,7 @@ $result = mysqli_query($con,"SELECT MAX(Distance) FROM 'Top Player'");
 						}
 					?>
                                      
-                    </p>
+                   
                 </div>
             </div>
         </div>
