@@ -9,6 +9,12 @@ $row = mysqli_fetch_row($result);
 $id = $row[0];
 $username = $row[1];
 $password = $row[2];
+
+echo $id;
+echo $username;
+echo $password;
+
+
 if ($_POST['Password'] != $password)
 {
 	echo "Bad Password";
