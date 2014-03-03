@@ -11,6 +11,7 @@ $row = mysqli_fetch_row($result);
 $id = $row[0];
 $sqlusername = $row[1];
 $sqlpassword = $row[2];
+mysqli_close($con);
 if ($password != $sqlpassword)
 {
 	echo "Bad Password";
@@ -23,5 +24,4 @@ else {
 	header("Location: ../../admin.php");
 	exit();
 }
-mysqli_close($con);
 ?>
