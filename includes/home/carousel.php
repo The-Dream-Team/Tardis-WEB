@@ -41,9 +41,9 @@
                  <?php
 	
 
-	$con = mysqli_connect("localhost","thedreamteam","El3ven","SSA") or die ("Error " . mysqli_error($con));
+$con = mysqli_connect("localhost","thedreamteam","El3ven","SSA") or die ("Error " . mysqli_error($con));
  
-$result = mysqli_query($con,"SELECT MAX(Distance) FROM Top Player");
+$result = mysqli_query($con,"SELECT * FROM Top Player");
 
 	//Build Result String
 $display_string = "<table class='table table-striped'>";
