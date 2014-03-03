@@ -39,9 +39,9 @@
                                        
                  <?php
 	
-					$con = mysqli_connect("localhost","thedreamteam","El3ven","SSA") or die ("Error " . mysqli_error($con));
+					include "includes/sqllogin.php";
  
-					$result = mysqli_query($con,"SELECT * FROM 'Top Player' ORDER BY Distance DESC");
+					$result = mysqli_query($con,"SELECT `PlayerName` `Distance` FROM 'Top Player' ORDER BY Distance DESC");
 		
 					//Build Result String
 
@@ -51,14 +51,11 @@
 					while($row = mysqli_fetch_array($result))
 					{
 					
-						echo "<td>" . $row['PlayerName'] . "</td>";
-						echo "<td>" . $row['Distance'] . "</td>";
+						echo  $row['PlayerName'] . " - " . $row['Distance'];
 						
 					}
 					// Used for debugging purposes. All fine at the moment!!
 					// echo "Query: " . $result . "<br />";
-					
-					echo $display_string;
 					?>
 					
 
