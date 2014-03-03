@@ -23,4 +23,5 @@ else {
 	header("Location: ../../admin.php");
 	exit();
 }
+mysqli_close($con);
 ?>
