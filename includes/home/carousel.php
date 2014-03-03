@@ -41,7 +41,7 @@
 	
 					include "includes/sqllogin.php";
  
-					$result = mysqli_query($con,"SELECT `PlayerName` `Distance` FROM 'Top Player' ORDER BY Distance DESC");
+					$result = mysqli_query($con,"SELECT `PlayerName` `Distance` FROM `Top Player` ORDER BY Distance DESC");
 		
 					//Build Result String
 
@@ -56,6 +56,7 @@
 					}
 					// Used for debugging purposes. All fine at the moment!!
 					// echo "Query: " . $result . "<br />";
+					mysqli_close($con);
 					?>
 					
 
