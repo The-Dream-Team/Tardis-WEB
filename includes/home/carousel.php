@@ -35,7 +35,7 @@
             <div class="container">
                 <div class="carousel-caption">
                     <img class="carousel-imgresponsive" src="img/top-player.png" alt="Top Player">
-                    <p>WoodKatie - 110000 metres  </p>
+                    <p>
                                        
                  <?php
 	
@@ -54,6 +54,7 @@
 						echo $row['PlayerName'];
 						echo " - ";
 						echo $row['Distance'];
+						echo " Metres";
 						
 					}
 					// Used for debugging purposes. All fine at the moment!!
@@ -61,6 +62,7 @@
 					mysqli_close($con);
 					?>
 					
+				</p>
 
 
                 </div>
