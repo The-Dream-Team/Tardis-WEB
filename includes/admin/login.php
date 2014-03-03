@@ -3,7 +3,7 @@
 include "includes/sqllogin.php";
 	
 		
-	$result = mysqli_query($con,"SELECT * FROM admin WHERE Username='$_POST[Username]'");
+	$result = mysqli_query($con,"SELECT * FROM admins WHERE Username='$_POST[Username]'");
 
 	$row = mysqli_fetch_row($result);
 	$id = $row[0];
