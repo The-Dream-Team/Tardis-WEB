@@ -44,17 +44,15 @@
 					$result = mysqli_query($con,"SELECT * FROM 'Top Player' ORDER BY Distance DESC");
 		
 					//Build Result String
-					
-					$display_string .= "<th>Username</th>";
-					$display_string .= "<th>Distance</th>";
+
 					
 					
 					// Insert a new row in the table for each person returned
 					while($row = mysqli_fetch_array($result))
 					{
 					
-						$display_string .= "<td>$row[PlayerName]</td>";
-						$display_string .= "<td>$row[Distance]</td>";
+						echo "<td>" . $row['PlayerName'] . "</td>";
+						echo "<td>" . $row['Distance'] . "</td>";
 						
 					}
 					// Used for debugging purposes. All fine at the moment!!
