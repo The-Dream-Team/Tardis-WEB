@@ -2,6 +2,7 @@
 
 include "../sqllogin.php";
 	
+print "ALIX".$_POST[Username];
 		
 	$result = mysqli_query($con,"SELECT * FROM admins WHERE Username='$_POST[Username]'");
 
