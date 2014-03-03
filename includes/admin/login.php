@@ -12,12 +12,12 @@ include "includes/sqllogin.php";
 	if ($_POST['Password'] != $password)
 	{
 		echo "Bad Username or Password";	
+		exit;
 	} 
 		else {
 			// Create Sessions
 			$_SESSION['username'] = $username;
 			header("Location: ../../admin.php");
-			exit;
 			}
 
 ?>
