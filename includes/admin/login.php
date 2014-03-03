@@ -1,6 +1,6 @@
 <?php session_start();
 
-include "includes/sqllogin.php";
+include "../sqllogin.php";
 	
 		
 	$result = mysqli_query($con,"SELECT * FROM admins WHERE Username='$_POST[Username]'");
@@ -10,7 +10,7 @@ include "includes/sqllogin.php";
 	$username = $row[1];
 	$password = $row[2];
 	mysqli_close($con);
-	if (htlspecialchar($_POST['Password']) != $password)
+	if ($_POST['Password'] != $password)
 	{
 		echo "Bad Username or Password";	
 		exit;
