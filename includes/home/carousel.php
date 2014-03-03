@@ -43,7 +43,7 @@
 
 $con = mysqli_connect("localhost","thedreamteam","El3ven","SSA") or die ("Error " . mysqli_error($con));
  
-$result = mysqli_query($con,"SELECT * FROM 'Top Player'");
+$result = mysqli_query($con,"SELECT * FROM 'Top Player' ORDER BY Distance DESC");
 
 	//Build Result String
 $display_string = "<table class='table table-striped'>";
