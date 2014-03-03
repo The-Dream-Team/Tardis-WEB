@@ -9,7 +9,7 @@ include 'includes/head.php';
 <?php
 session_start();
 
-if (!isset($_SESSION['userid']) && $_SESSION['username'] && $_SESSION['password']) {
+if (!isset($_SESSION['username'])) {
 header ("Location: adminlogin.php");
 exit();
 }
