@@ -2,6 +2,23 @@
 <body onload="ajaxFunction(); top10();">
 <input type="hidden" value="10" id="limit"/>
 
+
+
+<div class="col-sm-8"></div>
+<div class="col-sm-"></div>
+
+<div class="col-sm-2">
+	<form class="" role="search">
+ 		 <div class="form-group">
+  			  <input type="text" class="form-control" placeholder="Search">
+  			    <button type="submit"  class="input-group-addon">Search</button>
+  		 </div>		
+  		 
+</div>
+<div class="col-sm-2"></div>
+
+
+
 <div class="container">
 	<div class="row">
 		<div class="col-lg-12">
@@ -12,6 +29,8 @@
 			</ul>
 		</div>
 	</div>
+	
+
 	
 	<br>
 	
