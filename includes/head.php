@@ -1,3 +1,5 @@
+<!DOCTYPE html>
+
 <?php
 include "config.php";
     ?>
