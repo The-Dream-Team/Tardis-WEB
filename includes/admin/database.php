@@ -1,3 +1,16 @@
+<link href="http://the-dreamteam.co.uk/css/extras-admin.css" rel="stylesheet">
+<div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-3 col-md-2 sidebar">
+          <ul class="nav nav-sidebar">
+            <li class="active"><a href="#">Overview</a></li>
+            <li><a href="#">High Scores</a></li>
+            <li><a href="#">Jenkins</a></li>
+          </ul>
+        </div>
+        <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
+          <h1 class="page-header">Dashboard</h1>
+
 <?php
 $rank = 1;
 
@@ -30,3 +43,9 @@ echo "</div></table>";
 
 mysqli_close($con);
 ?>
+
+
+
+        </div>
+      </div>
+    </div>
