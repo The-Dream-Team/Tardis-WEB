@@ -14,7 +14,6 @@ exit();
 else {
     include 'includes/nav.php';
     include 'includes/admin/database.php';
-    include 'includes/admin/adminfooter.php';
     include 'includes/js.php';
 }
 ?>
