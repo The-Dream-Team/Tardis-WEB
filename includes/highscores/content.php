@@ -12,7 +12,7 @@
 <form class="form-inline" role="form">
  <div class="form-group">
  <label class="sr-only" for="search_username_label">Search query</label>
- <input type="text" class="form-control" id="search_username" placeholder="Enter search query">
+ <input type="text" class="form-control" id="search_username" placeholder="Enter Username.">
  </div>
  <button type="submit" class="btn btn-default btn-sm"><span class="glyphicon glyphicon-search"></span></button>
 </form>
