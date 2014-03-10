@@ -3,23 +3,24 @@
 <input type="hidden" value="10" id="limit"/>
 
 
-
-<div class="col-sm-8"></div>
-<div class="col-sm-"></div>
-
-<div class="col-sm-2">
-	<form class="" role="search">
- 		 <div class="form-group">
-  			  <input type="text" class="form-control" placeholder="Search">
-  			    <button type="submit"  class="input-group-addon">Search</button>
-  		 </div>		
-  		 
-</div>
-<div class="col-sm-2"></div>
-
-
-
 <div class="container">
+<div class="row">
+<div class="col-sm-8"></div>
+
+
+<div class="col-sm-4">
+<form class="form-inline" role="form">
+ <div class="form-group">
+ <label class="sr-only" for="search_username_label">Search query</label>
+ <input type="text" class="form-control" id="search_username" placeholder="Enter search query">
+ </div>
+ <button type="submit" class="btn btn-default btn-sm"><span class="glyphicon glyphicon-search"></span></button>
+</form>
+  	
+ </div>
+
+
+
 	<div class="row">
 		<div class="col-lg-12">
 			<ul class="nav nav-tabs">
