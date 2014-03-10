@@ -78,7 +78,7 @@ function searchFunction(){
 // server script.
     var search_username = document.getElementById('search_username').value;
     var queryString = "?search_username=" + search_username ;
-    ajaxRequest.open("GET", "../../includes/highscores/searchuser.php" +
+    ajaxRequest.open("GET", "/includes/highscores/searchuser.php" +
         queryString, true);
     ajaxRequest.send(null);
 }
