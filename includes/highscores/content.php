@@ -22,7 +22,7 @@ else{
  <label class="sr-only" for="search_username_label">Search query</label>
  <input type="text" class="form-control" id="search_username" value="<?=$keywords?>" placeholder="Enter Username.">
  </div>
- <button class="btn btn-default btn-sm" onclick="submitsearch()"><span class="glyphicon glyphicon-search"></span></button>
+ <button class="btn btn-default btn-sm" onclick="searchFunction()"><span class="glyphicon glyphicon-search"></span></button>
 </form>
   	
  </div>
