@@ -17,7 +17,7 @@ else{
 <div class="col-sm-8"></div>
  
 <div class="col-sm-4">
-<form class="form-inline" role="form" action="searchuser.php" method="post">
+<form class="form-inline" role="form">
  <div class="form-group">
  <label class="sr-only" for="search_username_label">Search query</label>
  <input type="text" class="form-control" id="search_username" value="<?=$keywords?>" placeholder="Enter Username.">
