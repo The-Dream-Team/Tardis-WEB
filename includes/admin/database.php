@@ -10,7 +10,7 @@ $rank = 1;
 
 include 'includes/sqllogin.php';
 
-$result = mysqli_query($con,"SELECT * FROM `Top Player` ORDER BY Distance DESC");
+$result = mysqli_query($con,"SELECT * FROM Top Player ORDER BY Distance DESC");
 
 echo "<div class='container'><table class='table table-striped'>
 				<tr>
