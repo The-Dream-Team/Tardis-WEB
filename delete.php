@@ -2,7 +2,7 @@
 
 include "../sqllogin.php";
 
-mysqli_query($con,"DELETE FROM `Top Player` WHERE ID='$_GET[id]'");
+mysqli_query($con,"DELETE FROM `Top Player` WHERE PlayerID='$_GET[id]'");
 
 mysqli_close($con);
 
