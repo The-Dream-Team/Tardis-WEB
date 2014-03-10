@@ -1,13 +1,14 @@
 <?php
 
-include 'includes/sqllogin.php';
+include '/includes/sqllogin.php';
 
-$ID = $_GET['id'];
-$query = mysqli_query($con,"DELETE FROM `Top Player` WHERE `PlayerID` = $ID");
+$playerid = $_GET['id'];
+$query = mysqli_query($con,"DELETE FROM `Top Player` WHERE `PlayerID` = $playerid");
 
+echo $playerid;
+echo $query;
 
 mysqli_close($con);
-echo $query; 
 
 //header("Location: ../../admin.php");
 exit;
