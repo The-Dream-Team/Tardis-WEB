@@ -1,7 +1,8 @@
 <?php
 	$limit = $_GET['limit'];
-	$con = mysqli_connect("localhost","thedreamteam","El3ven","SSA") or die ("Error " . mysqli_error($con));
- 
+	
+	include 'includes/sqllogin.php';
+	
 $result = mysqli_query($con,"SELECT * FROM  `Top Player` ORDER BY Distance DESC LIMIT $limit");
  
 	//Build Result String
