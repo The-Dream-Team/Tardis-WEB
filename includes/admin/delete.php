@@ -7,7 +7,8 @@ $query = mysqli_query($con,"DELETE FROM `Top Player` WHERE `PlayerID` = $ID");
 
 
 mysqli_close($con);
+echo $query; 
 
-header("Location: ../../admin.php");
+//header("Location: ../../admin.php");
 exit;
 
