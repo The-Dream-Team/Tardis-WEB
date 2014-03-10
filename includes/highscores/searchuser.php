@@ -5,7 +5,7 @@ $search_username = $_GET['search_username'];
 
 include '../../includes/sqllogin.php';
 
-$result = mysqli_query($con,"SELECT * FROM `Top Player` WHERE `PlayerName` = $search_username");
+$result = mysqli_query($con,"SELECT * FROM `Top Player` WHERE `PlayerName` = '$search_username'");
 		
 
 //Build Result String
