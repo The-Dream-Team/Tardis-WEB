@@ -1,6 +1,6 @@
 <?php
 
-include '/includes/sqllogin.php';
+include '../sqllogin.php';
 
 $playerid = $_GET['id'];
 $query = mysqli_query($con,"DELETE FROM `Top Player` WHERE `PlayerID` = $playerid");
