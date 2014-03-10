@@ -1,12 +1,8 @@
-<!-- 
-//Browser Support Code
-
-
 function ajaxFunction(){
 
- 	 $(document).ready(function() {
-	 $("#progressbar").css({"width":"100%"});
-     $("#loading").delay(1500).fadeOut();
+    $(document).ready(function() {
+        $("#progressbar").css({"width":"100%"});
+$("#loading").delay(1500).fadeOut();
 	 $("#results").show();
    });
 
@@ -26,76 +22,65 @@ function ajaxFunction(){
       }catch (e){
          // Something went wrong
          alert("Your browser broke!");
-         return false;
-      }
-   }
- }
- // Create a function that will receive data 
- // sent from the server and will update
- // div section in the same page.
- ajaxRequest.onreadystatechange = function(){
-   if(ajaxRequest.readyState == 4){
-      var ajaxDisplay = document.getElementById('results');
-      ajaxDisplay.innerHTML = ajaxRequest.responseText;
-   }
- }
- // Now get the value from user and pass it to
- // server script.
- var limit = document.getElementById('limit').value;
+return false;
+}
+}
+}
+// Create a function that will receive data
+// sent from the server and will update
+// div section in the same page.
+ajaxRequest.onreadystatechange = function(){
+    if(ajaxRequest.readyState == 4){
+    var ajaxDisplay = document.getElementById('results');
+    ajaxDisplay.innerHTML = ajaxRequest.responseText;
+    }
+}
+// Now get the value from user and pass it to
+// server script.
+var limit = document.getElementById('limit').value;
  var queryString = "?limit=" + limit ;
  ajaxRequest.open("GET", "includes/highscores/results-ajax.php" + 
                               queryString, true);
  ajaxRequest.send(null); 
 }
-//
-//
-//
-//
-//
 
-var searchRequest;  // The variable for search ajax. 
+function submitsearch(){
 
-try{
-  // Opera 8.0+, Firefox, Safari
-  ajaxRequest = new XMLHttpRequest();
-}catch (e){
-  // Internet Explorer Browsers
-  try{
-     ajaxRequest = new ActiveXObject("Msxml2.XMLHTTP");
-  }catch (e) {
-     try{
-        ajaxRequest = new ActiveXObject("Microsoft.XMLHTTP");
-     }catch (e){
-        // Something went wrong
-        alert("Your browser broke!");
-        return false;
-     }
-  }
-}
-// Create a function that will receive data 
+    var ajaxRequest;  // The variable that makes Ajax possible!
+
+    try{
+        // Opera 8.0+, Firefox, Safari
+        ajaxRequest = new XMLHttpRequest();
+    }catch (e){
+        // Internet Explorer Browsers
+        try{
+            ajaxRequest = new ActiveXObject("Msxml2.XMLHTTP");
+        }catch (e) {
+            try{
+                ajaxRequest = new ActiveXObject("Microsoft.XMLHTTP");
+            }catch (e){
+                // Something went wrong
+                alert("Your browser broke!");
+                return false;
+            }
+        }
+    }
+// Create a function that will receive data
 // sent from the server and will update
 // div section in the same page.
-ajaxRequest.onreadystatechange = function(){
-  if(ajaxRequest.readyState == 4){
-     var ajaxDisplay = document.getElementById('results');
-     ajaxDisplay.innerHTML = ajaxRequest.responseText;
-  }
-}
+    ajaxRequest.onreadystatechange = function(){
+        if(ajaxRequest.readyState == 4){
+            var ajaxDisplay = document.getElementById('results');
+            ajaxDisplay.innerHTML = ajaxRequest.responseText;
+        }
+    }
 // Now get the value from user and pass it to
 // server script.
-var search_username = document.getElementById('search_username').value;
-var queryString = "?search_username=" + search_username;
-ajaxRequest.open("GET", "includes/highscores/searchuser.php" + 
-                             queryString, true);
-ajaxRequest.send(null); 
-}
-//
-//
-//
-//
-//
-function submitsearch(){	
-	searchRequest();
+    var search_username = document.getElementById('search_username').value;
+    var queryString = "?search_username=" + search_username ;
+    ajaxRequest.open("GET", "includes/highscores/searchuser.php" +
+        queryString, true);
+    ajaxRequest.send(null);
 }
 
 function top10(){
@@ -120,6 +105,10 @@ function top100(){
     document.getElementById('top10n').className="";
     document.getElementById('top50n').className="";
 	ajaxFunction();
+}
+
+function submitsearch(){
+    searchFunction();
 }
 
 
