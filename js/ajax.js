@@ -44,7 +44,7 @@ var limit = document.getElementById('limit').value;
  ajaxRequest.send(null); 
 }
 
-function submitsearch(){
+function searchFunction(){
 
     var ajaxRequest;  // The variable that makes Ajax possible!
 
