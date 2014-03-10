@@ -2,19 +2,27 @@
 <body onload="ajaxFunction(); top10();">
 <input type="hidden" value="10" id="limit"/>
 
+<?php 
+ if(isset($_COOKIE['search_username'])){
+   $keywords = $_COOKIE['search_username'];
+  }
+else{
+  $keywords = "";
+  }
+ ?>
+
 
 <div class="container">
 <div class="row">
 <div class="col-sm-8"></div>
-
-
+ 
 <div class="col-sm-4">
-<form class="form-inline" role="form">
+<form class="form-inline" role="form" action="searchuser.php" method="post">
  <div class="form-group">
  <label class="sr-only" for="search_username_label">Search query</label>
- <input type="text" class="form-control" id="search_username" placeholder="Enter Username.">
+ <input type="text" class="form-control" id="search_username" value="<?=$keywords?>" placeholder="Enter Username.">
  </div>
- <button type="submit" class="btn btn-default btn-sm"><span class="glyphicon glyphicon-search"></span></button>
+ <button class="btn btn-default btn-sm" onclick="submitsearch()"><span class="glyphicon glyphicon-search"></span></button>
 </form>
   	
  </div>
