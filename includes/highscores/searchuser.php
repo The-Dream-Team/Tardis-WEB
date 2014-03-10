@@ -3,7 +3,7 @@
 
 $search_username = $_GET['search_username'];
 
-include 'includes/sqllogin.php';
+include '../../includes/sqllogin.php';
 
 $result = mysqli_query($con,"SELECT * FROM  `Top Player` WHERE PlayerName= $search_username");
 		
@@ -30,7 +30,3 @@ while($row = mysqli_fetch_array($result))
 $display_string .= "</table>";
 echo $display_string;
 ?>
-
-
-?>
-
