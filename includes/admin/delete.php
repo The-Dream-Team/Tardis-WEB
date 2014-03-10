@@ -2,7 +2,7 @@
 
 include 'includes/sqllogin.php';
 
-$ID = '$_GET[id]';
+$ID = $_GET['id'];
 
 echo $ID;
 
