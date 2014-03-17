@@ -27,7 +27,11 @@ else{
   	
  </div>
 
-
+<div class="row">
+<div class="col-lg-12">
+	<div id="search_results"></div>
+</div>
+</div>
 
 	<div class="row">
 		<div class="col-lg-12">
