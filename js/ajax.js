@@ -74,7 +74,7 @@ function searchFunction(){
 // div section in the same page.
     ajaxRequest.onreadystatechange = function(){
         if(ajaxRequest.readyState == 4){
-            var ajaxDisplay = document.getElementById('search_results');
+            var ajaxDisplay = document.getElementById('results');
             ajaxDisplay.innerHTML = ajaxRequest.responseText;
         }
     }
