@@ -4,7 +4,6 @@ function ajaxFunction(){
         $("#progressbar").css({"width":"100%"});
 $("#loading").delay(1500).fadeOut();
 	 $("#results").show();
-	 $(top10);
 	   });
 
 
