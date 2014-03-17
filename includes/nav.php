@@ -14,7 +14,7 @@
                 <li class="<?php echo ($page == "home" ? "active" : "")?>"><a href="index.php">Home</a></li>
                 <li class="<?php echo ($page == "about" ? "active" : "")?>"><a href="about.php">About</a></li>
                 <li class="<?php echo ($page == "manual" ? "active" : "")?>"><a href="manual.php">How to Play</a></li>
-                <li class="<?php echo ($page == "highscores" ? "active" : "")?>"><a href="highscores.php">High Scores</a></li>
+                <li class="<?php echo ($page == "highscores" ? "active" : "")?>"><a href="highscores.php#">High Scores</a></li>
                 <li class="<?php echo ($page == "faq" ? "active" : "")?>"><a href="faq.php">FAQ</a></li>
                 <li class="<?php echo ($page == "contact" ? "active" : "")?>"><a href="contact.php">Contact Us</a></li>
             </ul>
