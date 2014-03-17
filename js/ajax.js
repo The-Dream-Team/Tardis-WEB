@@ -1,3 +1,7 @@
+function pageLoad(){
+	top10();
+}
+
 function ajaxFunction(){
 
     $(document).ready(function() {
