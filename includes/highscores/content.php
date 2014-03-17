@@ -1,5 +1,5 @@
 <script src="js/ajax.js"></script>
-<body onload="ajaxFunction(); top10();">
+<body onload="pageLoad();">
 <input type="hidden" value="10" id="limit"/>
 
 <?php 
