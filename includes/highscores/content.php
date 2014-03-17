@@ -1,5 +1,5 @@
 <script src="js/ajax.js"></script>
-<body onload="ajaxFunction(); top10();">
+<body onload="pageLoad();">
 <input type="hidden" value="10" id="limit"/>
 
 <?php 
@@ -27,11 +27,7 @@ else{
   	
  </div>
 
-<div class="row">
-<div class="col-lg-12">
-	<div id="search_results"></div>
-</div>
-</div>
+
 
 	<div class="row">
 		<div class="col-lg-12">
@@ -62,6 +58,7 @@ else{
 	<div id="results"></div>
   </div>
 </div>
+
 	
     <hr>
 
