@@ -114,6 +114,7 @@ function top100(){
 }
 
 function submitsearch(){
+    top10();
     searchFunction();
 }
 
