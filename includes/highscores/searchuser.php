@@ -1,4 +1,3 @@
-
 <?php 
 
 $search_username = $_GET['search_username'];
@@ -9,7 +8,8 @@ $result = mysqli_query($con,"SELECT * FROM `Top Player` WHERE `PlayerName` LIKE 
 		
 
 //Build Result String
-$display_string = "<table class='table table-striped'>";
+$display_string = "<h3>Search Results</h3>"
+$display_string .= "<table class='table table-striped'>";
 $display_string .= "<tr>";
 $display_string .= "<th>Username</th>";
 $display_string .= "<th>Distance</th>";
@@ -28,5 +28,6 @@ while($row = mysqli_fetch_array($result))
 // Used for debugging purposes. All fine at the moment!!
 // echo "Query: " . $result . "<br />";
 $display_string .= "</table>";
+$display_string .= "<hr>";
 echo $display_string;
 ?>
