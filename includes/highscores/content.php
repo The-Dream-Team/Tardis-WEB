@@ -28,6 +28,12 @@ else{
  </div>
 
 
+<div class="row">
+	<div class="col-lg-12">
+		<div id="search_results"></div>
+	</div>
+</div>
+
 
 	<div class="row">
 		<div class="col-lg-12">
@@ -54,7 +60,6 @@ else{
 </div>
 	
 	</div>
-	<div id="search_results"></div>
 	<div id="results"></div>
   </div>
 </div>
