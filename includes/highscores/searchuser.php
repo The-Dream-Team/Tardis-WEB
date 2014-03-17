@@ -8,7 +8,7 @@ $result = mysqli_query($con,"SELECT * FROM `Top Player` WHERE `PlayerName` LIKE 
 		
 
 //Build Result String
-$display_string = "<h3>Search Results</h3>"
+$display_string = "<h3>Search Results</h3>";
 $display_string .= "<table class='table table-striped'>";
 $display_string .= "<tr>";
 $display_string .= "<th>Username</th>";
