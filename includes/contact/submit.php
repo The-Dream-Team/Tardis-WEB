@@ -74,6 +74,7 @@ if(isset($_POST['email'])) {
       $bad = array("content-type","bcc:","to:","cc:","href");
  
       return str_replace($bad,"",$string);
+      
  
     }
     $email_message .= "Name: ".clean_string($name)."\n";
@@ -94,7 +95,6 @@ $headers = 'From: '.$email_from."\r\n".
 
 }
 
-if (isset($_success)){
-	header("Location:../../contact.php?success");
-	die();
+header("Location:../../contact.php?success");
+die();
 }
