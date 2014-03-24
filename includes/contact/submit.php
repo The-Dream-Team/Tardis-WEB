@@ -55,13 +55,7 @@ if(isset($_POST['email'])) {
     $error_message .= 'The Name you entered appears to be invalid.<br />';
  
   }
- 
-  if(!preg_match($string_exp,$email)) {
- 
-    $error_message .= 'The email you entered appears to be invalid.<br />';
- 
-  }
- 
+  
   if(strlen($message) < 2) {
  
     $error_message .= 'The message you entered appears to be invalid.<br />';
