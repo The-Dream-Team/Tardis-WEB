@@ -1,20 +1,20 @@
 <?php session_start();
-$pageTitle = "Edit player";
+$pageTitle = "Edit Player";
 $page = "Edit Player";
-include 'includes/head.php';
+include '../head.php';
 ?>
 <html>
 <body>
 
 <?php
 if (!isset($_SESSION['username'])) {
-    header ("Location: adminlogin.php");
+    header ("Location: ../../adminlogin.php");
     exit();
 }
 else {
     include "../sqllogin.php";
 
-    $result = mysqli_query($con,"SELECT * FROM `Top Player` WHERE ID='$_GET[id]' LIMIT 1");
+    $result = mysqli_query($con,"SELECT * FROM `Top Player` WHERE `PlayerID`='$_GET[id]' LIMIT 1");
 
     while	($row = mysqli_fetch_array($result)) {
         echo	"<form class='form-signin' action='edit.php' method='post'>";
@@ -25,7 +25,7 @@ else {
         echo	"</form>";
     }
     mysqli_close($con);
-    include 'includes/js.php';
+    include '../js.php';
 }
 ?>
 </body>
