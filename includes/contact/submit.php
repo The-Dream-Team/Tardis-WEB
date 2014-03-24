@@ -97,4 +97,3 @@ $headers = 'From: '.$email_from."\r\n".
 
 header("Location:../../contact.php?success");
 die();
-}
