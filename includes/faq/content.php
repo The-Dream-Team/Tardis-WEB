@@ -39,13 +39,13 @@
             <div class="panel-heading">
                 <h4 class="panel-title">
                     <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
-                        Question #3
+                        Where can I download the game?
                     </a>
                 </h4>
             </div>
             <div id="collapseThree" class="panel-collapse collapse">
                 <div class="panel-body">
-                  Answer will appear here. 
+                  The game can be downloaded from our website. http://www.the-dreamteam.co.uk 
                 </div>
             </div>
         </div>
