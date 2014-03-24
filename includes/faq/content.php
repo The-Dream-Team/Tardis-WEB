@@ -25,13 +25,13 @@
             <div class="panel-heading">
                 <h4 class="panel-title">
                     <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
-                        Question #2
+                        Why is my game not running?
                     </a>
                 </h4>
             </div>
             <div id="collapseTwo" class="panel-collapse collapse">
                 <div class="panel-body">
-               		Answer will appear here.
+               		Make sure you have the latest version of java installed. https://www.java.com/en/download/ 
                 </div>
             </div>
         </div>
