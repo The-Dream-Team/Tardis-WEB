@@ -64,3 +64,64 @@
 .main .page-header {
   margin-top: 0;
 }
+
+
+// container-admin
+
+
+.container-admin {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.container-admin:before,
+.container-admin:after {
+  display: table;
+  content: " ";
+}
+
+.container-admin:after {
+  clear: both;
+}
+
+.container-admin:before,
+.container-admin:after {
+  display: table;
+  content: " ";
+}
+
+.container-admin:after {
+  clear: both;
+}
+
+.container-admin:before,
+.container-admin:after {
+  display: table;
+  content: " ";
+}
+
+.container-admin:after {
+  clear: both;
+}
+
+.container-admin:before,
+.container-admin:after {
+  display: table;
+  content: " ";
+}
+
+.container-admin:after {
+  clear: both;
+}
+
+.container-admin:before,
+.container-admin:after {
+  display: table;
+  content: " ";
+}
+
+.container-admin:after {
+  clear: both;
+}
