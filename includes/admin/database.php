@@ -1,5 +1,5 @@
 <link href="http://the-dreamteam.co.uk/css/extras-admin.css" rel="stylesheet">
-<div class="container">
+<div class="container-fluid">
       <div class="row">
        <?php include 'includes/admin/nav.php' ?>
         <div class="col-sm-9 col-sm-3 col-md-10 col-md-2 main">
