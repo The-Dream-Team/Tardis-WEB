@@ -1,15 +1,12 @@
 <div class="container">
 
 <div class="row">  
-
-<?php 
-if (isset($_GET['success'])) {
-echo "<div class='alert alert-success'>Your message has been recieved.</div>";
-}
-?>
-
-
 	<div class="col-sm-8 contact-form">
+	<?php 
+		if (isset($_GET['success'])) {
+		echo "<div class='alert alert-success'>Your message has been recieved.</div>";
+		}
+	?>
 		<form id="contact" method="post" action="includes/contact/submit.php" class="form" role="form">
 			<div class="row">
 				<div class="col-xs-6 col-md-6 form-group">
