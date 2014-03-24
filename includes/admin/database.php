@@ -1,6 +1,6 @@
 <link href="http://the-dreamteam.co.uk/css/extras-admin.css" rel="stylesheet">
 <div class="container-admin">
-      <div class="row">
+      <div class="row-admin">
        <?php include 'includes/admin/nav.php' ?>
         <div class="col-sm-9 col-sm-3 col-md-10 col-md-2 main">
           <h1 class="page-header">Dashboard</h1>
