@@ -100,6 +100,6 @@ $headers = 'From: '.$email_from."\r\n".
 
 }
 if (isset($_success)){
-	header("Location:../../contact.php");
+	header("Location:../../contact.php?success");
 	die();
 }
