@@ -35,14 +35,11 @@
 
 </div>
 
-
 <?php 
 if (isset($_GET['success'])) {
 echo "<div class='alert alert-success'>Your message has been recieved.</div>";
 }
 ?>
-
-
 
     <hr>
 
