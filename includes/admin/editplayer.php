@@ -1,9 +1,9 @@
 <?php session_start();
-$pageTitle = "admin";
-$page = "admin";
+$pageTitle = "Edit player";
+$page = "Edit Player";
 include 'includes/head.php';
 ?>
-
+<html>
 <body>
 
 <?php
