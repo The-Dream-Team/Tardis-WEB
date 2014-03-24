@@ -1,4 +1,4 @@
- <div class="col-sm-3 col-md-0 sidebar">
+ <div class="col-sm-3 col-md-1 sidebar">
           <ul class="nav nav-sidebar">
             <li class="active"><a href="#">Overview</a></li>
             <li><a href="#">High Scores</a></li>
