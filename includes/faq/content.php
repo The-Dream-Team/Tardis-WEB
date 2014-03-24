@@ -31,7 +31,7 @@
             </div>
             <div id="collapseTwo" class="panel-collapse collapse">
                 <div class="panel-body">
-               		Make sure you have the latest version of java installed. https://www.java.com/en/download/ 
+               		Make sure you have the latest version of java installed. <a href="https://www.java.com/en/download/">Download Java</a> 
                 </div>
             </div>
         </div>
@@ -45,7 +45,7 @@
             </div>
             <div id="collapseThree" class="panel-collapse collapse">
                 <div class="panel-body">
-                  The game can be downloaded from our website. http://www.the-dreamteam.co.uk 
+                  The game can be downloaded from <a href="http://www.the-dreamteam.co.uk ">Our Website</a>.
                 </div>
             </div>
         </div>
