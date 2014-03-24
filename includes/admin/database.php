@@ -29,7 +29,7 @@ while($row = mysqli_fetch_array($result))
 	echo "<td>" . $rank++ . "</td>";
 	echo "<td>" . $row['PlayerName'] . "</td>";
 	echo "<td>" . $row['Distance'] . "</td>";
-	echo "<td><a href='edituser.php?id=". $row['PlayerID'] . "'>EDIT</a></td>";
+	echo "<td><a href='editplayer.php?id=". $row['PlayerID'] . "'>EDIT</a></td>";
 	echo "<td><a href='includes/admin/delete.php?id=". $row['PlayerID'] . "'>DELETE</a></td>";
 	echo "</tr>";
 }
