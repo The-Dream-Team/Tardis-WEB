@@ -77,8 +77,7 @@
                 </div>
             </div>
         </div>
-        
-         <div class="panel panel-default">
+        <div class="panel panel-default">
             <div class="panel-heading">
                 <h4 class="panel-title">
                     <a data-toggle="collapse" data-parent="#accordion" href="#collapseSix">
@@ -92,6 +91,63 @@
                 </div>
             </div>
         </div>
+         <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseSeven">
+                        Question #7
+                    </a>
+                </h4>
+            </div>
+            <div id="collapseSeven" class="panel-collapse collapse">
+                <div class="panel-body">
+               		Answer will appear here.  
+                </div>
+            </div>
+        </div>
+          <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseEight">
+                        Question #8
+                    </a>
+                </h4>
+            </div>
+            <div id="collapseEight" class="panel-collapse collapse">
+                <div class="panel-body">
+               		Answer will appear here.  
+                </div>
+            </div>
+        </div>
+         <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseNine">
+                        Question #9
+                    </a>
+                </h4>
+            </div>
+            <div id="collapseNine" class="panel-collapse collapse">
+                <div class="panel-body">
+               		Answer will appear here.  
+                </div>
+            </div>
+        </div>
+          <div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseTen">
+                        Question #10
+                    </a>
+                </h4>
+            </div>
+            <div id="collapseTen" class="panel-collapse collapse">
+                <div class="panel-body">
+               		Answer will appear here.  
+                </div>
+            </div>
+        </div>
+        
         
         
 
