@@ -24,7 +24,7 @@
                 <div class="carousel-caption" style="margin-bottom: 50px;">
                     <img class="carousel-imgresponsive" src="img/textdownload.png" alt="Download Game text">
                     <p></p>
-                    <p><a class="btn btn-lg btn-success" href="http://37.187.75.63:8080/job/SSA/lastSuccessfulBuild/artifact/target/SSA.jar" role="button"><span
+                    <p><a class="btn btn-lg btn-success" href="/includes/Downloads/Super_Spaceship_Adventure-0.10.2-BETA.jar" role="button"><span
                                 class="glyphicon glyphicon-download-alt"></span></a></p>
                 </div>
             </div>
