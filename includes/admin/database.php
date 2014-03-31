@@ -1,8 +1,8 @@
 <link href="http://the-dreamteam.co.uk/css/extras-admin.css" rel="stylesheet">
-<div class="container-fluid">
+<div class="container">
       <div class="row">
        <?php include 'includes/admin/nav.php' ?>
-        <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
+        <div class="col-sm-9 col-sm-3 col-md-10 col-md-2 main">
           <h1 class="page-header">Dashboard</h1>
 
 <?php
@@ -29,7 +29,7 @@ while($row = mysqli_fetch_array($result))
 	echo "<td>" . $rank++ . "</td>";
 	echo "<td>" . $row['PlayerName'] . "</td>";
 	echo "<td>" . $row['Distance'] . "</td>";
-	echo "<td><a href='edituser.php?id=". $row['PlayerID'] . "'>EDIT</a></td>";
+	echo "<td><a href='includes/admin/editplayer.php?id=". $row['PlayerID'] . "'>EDIT</a></td>";
 	echo "<td><a href='includes/admin/delete.php?id=". $row['PlayerID'] . "'>DELETE</a></td>";
 	echo "</tr>";
 }

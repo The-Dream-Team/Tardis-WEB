@@ -1,8 +1,13 @@
 <div class="container">
 
-<div class="row">   
+<div class="row">  
 	<div class="col-sm-8 contact-form">
-		<form id="contact" method="post" class="form" role="form">
+	<?php 
+		if (isset($_GET['success'])) {
+		echo "<div class='alert alert-success'>Your message has been recieved.</div>";
+		}
+	?>
+		<form id="contact" method="post" action="includes/contact/submit.php" class="form" role="form">
 			<div class="row">
 				<div class="col-xs-6 col-md-6 form-group">
 					<input class="form-control" id="name" name="name" placeholder="Name" type="text" required autofocus />
@@ -34,8 +39,6 @@
 </div>
 
 </div>
-
-
 
 
     <hr>
