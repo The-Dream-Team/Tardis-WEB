@@ -13,11 +13,11 @@
             <p><a class="btn btn-default" href="faq.php" role="button">FAQ &raquo;</a></p>
         </div>
         <div class="col-md-4">
-            <h2>Competition!!!</h2>
-            <p>Would you like to win the chance to create your own player? 
-            Submit your entry of a creation of player ship for your chance to win.
+            <h2>Download Game</h2>
+            <p> Grab the latest version of the game using the button below. 
             </p>
-            <p><a class="btn btn-default" href="#" role="button">Enter Here &raquo;</a></p>
+            <p><a class="btn btn-default" href="http://37.187.75.63:8080/job/SSA/lastSuccessfulBuild/artifact/target/SSA.jar" role="button"> <span
+                                class="glyphicon glyphicon-download-alt"></span></a></p>
         </div>
     </div>
 
