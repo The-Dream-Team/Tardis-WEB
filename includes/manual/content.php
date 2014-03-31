@@ -16,7 +16,7 @@
  			<img alt="D key" src="img/keys/d.png">
  		</div>
  		
- 		<div class="col-lg-6"></div>
+ 		<div class="col-lg-6"><a class="btn btn-default"  href="/includes/manual/manual.pdf" role="button">PDF Game Manual &raquo;</a></div>
  	</div> 	 	
 </div>
 
